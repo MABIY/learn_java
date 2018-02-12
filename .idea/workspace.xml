@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a99c442-5218-455a-9ef9-fd3ffdb61daa" name="Default" comment="" />
+    <list default="true" id="9a99c442-5218-455a-9ef9-fd3ffdb61daa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/head_first_java/target/" />
@@ -88,11 +90,6 @@
             <path>
               <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="head_first_java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518444855483</updated>
-      <workItem from="1518444857062" duration="170000" />
+      <workItem from="1518444857062" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170000" />
+    <option name="totallyTimeSpent" value="296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="24" width="960" height="1056" extended-state="4" />
