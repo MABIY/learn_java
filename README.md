@@ -1,8 +1,9 @@
 ### 开发环境
-IntelliJ IDEA 2017.3.1 (Ultimate Edition)
-Build #IU-173.3942.27, built on December 11, 2017
+IntelliJ IDEA 2017.2.5
+Build #IU-172.4343.14, built on September 26, 2017
 
-JRE: 1.8.0_152-release-1024-b8 amd64
+
+JRE: 1.8.0_152-release-915-b12 amd64
 JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
 Linux 4.10.0-42-generic
 
