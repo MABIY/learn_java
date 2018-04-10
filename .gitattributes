@@ -1,6 +1,3 @@
-[core]
-	autolf = true
-
 *           text=auto
 *.txt		text
 *.vcproj	text eol=crlf
