@@ -30,4 +30,16 @@ class LoggingException3 extends Exception {
 
 
 public class E06_LoggingExceptions {
+    public static void main(String[] args) {
+        try {
+            throw new LoggingException1();
+        } catch (LoggingException1 loggingException1) {
+            System.out.println("Caught " + loggingException1);
+        }
+        try {
+            throw new LoggingException3();
+        } catch (LoggingException3 loggingException3) {
+            System.out.println("Caught " + loggingException3);
+        }
+    }
 }
