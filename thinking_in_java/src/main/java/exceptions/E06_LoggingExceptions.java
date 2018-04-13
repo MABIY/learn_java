@@ -19,12 +19,12 @@ class LoggingException1 extends Exception {
 }
 
 class LoggingException3 extends Exception {
-    private static Logger logger = Logger.getLogger("LoggingException2");
+    private static Logger logger = Logger.getLogger(LoggingException3.class.getName());
 
     public LoggingException3() {
         StringWriter trace = new StringWriter();
         printStackTrace(new PrintWriter(trace));
-
+        logger.severe(trace.toString());
     }
 }
 
