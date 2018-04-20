@@ -6,8 +6,10 @@ import write.code.Test;
 
 
 public class A {
+
     protected Object aPrint() {
-        System.out.println("a print");
+
+        System.out.println("a print ");
          return null;
     }
 
