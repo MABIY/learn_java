@@ -13,5 +13,7 @@ public class AssemblingMultidimensionalArrays {
             }
         }
         System.out.println(Arrays.deepToString(a));
+        int[][] b = new int[3][3];
+        System.out.println(Arrays.deepToString(b));
     }
 }
