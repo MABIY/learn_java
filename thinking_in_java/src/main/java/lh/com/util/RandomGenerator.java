@@ -98,8 +98,4 @@ public class RandomGenerator {
         }
     }
 
-    public static void main(java.lang.String[] args) {
-        String string = new String();
-        string.next();
-    }
 }
