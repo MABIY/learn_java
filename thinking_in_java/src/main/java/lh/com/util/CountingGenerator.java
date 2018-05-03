@@ -9,15 +9,15 @@ public class CountingGenerator {
         aFloat.next();
     }
 
-//    public static class Boolean implements Generator<java.lang.Boolean> {
-//        private boolean value = false;
-//
-//        @Override
-//        public java.lang.Boolean next() {
-//            value = !value; // just flips back and forth
-//            return value;
-//        }
-//    }
+    public static class Boolean implements Generator<java.lang.Boolean> {
+        private boolean value = false;
+
+        @Override
+        public java.lang.Boolean next() {
+            value = !value; // just flips back and forth
+            return value;
+        }
+    }
 
     public static class Byte implements Generator<java.lang.Byte> {
         private byte value = 0;
