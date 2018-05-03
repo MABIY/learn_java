@@ -25,7 +25,7 @@ public class ConvertTo {
         return result;
     }
 
-    public static short[] primitive(short[] in) {
+    public static short[] primitive(Short[] in) {
         short[] result = new short[in.length];
         for (int i = 0; i < in.length; i++) {
             result[i] = in[i];
