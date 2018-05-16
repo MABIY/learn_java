@@ -4,41 +4,45 @@ import java.util.Arrays;
 import java.util.List;
 
 abstract class Shape {
-    public int a =1;
+    public String a ="Shape.a";
+
     void draw() {
-        System.out.println(this + ".draw()" + this.a);
+        System.out.println(this + ".draw()" +this.a);
     }
 
     abstract public String toString();
 }
 
 class Circle extends Shape {
-    public int a =2;
+    public String a = "sub.a";
     @Override
     public String toString() {
         return "Circle{}";
     }
 }
 
-class Square extends Shape{
-    public int a =2;
+class Square extends Shape {
+    public String a = "sub.a";
     @Override
     public String toString() {
         return "Square{}";
     }
 }
 
-class Triangle extends Shape {
-    public int a =2;
+class Traingle extends Shape {
+    public String a = "sub.a";
     @Override
     public String toString() {
-        return "Triangle{}";
+        return "Traingle{}";
     }
 }
 
 public class Shapes {
+    public String a = "sub.a";
     public static void main(String[] args) {
-        Circle circle = new Circle();
-        circle.draw();
+        List<Shape> shapeList = Arrays.asList(new Circle(), new Square(), new Traingle());
+        for (Shape shape : shapeList) {
+            shape.draw();
+        }
     }
 }
