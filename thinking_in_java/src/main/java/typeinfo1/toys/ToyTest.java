@@ -39,10 +39,10 @@ public class ToyTest {
         try {
             //Requires defualt constructor
             obj = up.newInstance();
-        } catch (IllegalAccessException e) {
-            System.out.println("Cannot access");
-            System.exit(1);
         } catch (InstantiationException e) {
+            System.out.println("Cannot instantiationException");
+            System.exit(1);
+        } catch (IllegalAccessException e) {
             System.out.println("Cannot access");
             System.exit(1);
         }
