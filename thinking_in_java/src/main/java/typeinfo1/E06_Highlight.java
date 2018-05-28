@@ -10,7 +10,6 @@ interface A1{
 }
 class HShape {
     boolean highlighted = false;
-    public String a = "tt";
 
     public void highlight() {
         highlighted = true;
@@ -30,7 +29,6 @@ class HShape {
     static List<HShape> shapes = new ArrayList<>();
 
     HShape() {
-        //todo  先看第五章 初始化和清理
         shapes.add(this);
     }
 
@@ -94,7 +92,7 @@ public class E06_Highlight {
                 new HCircle(), new HSquare()
         );
         HShape.highlight1(HCircle.class);
-        HShape.highlight1(HCircle.class);
+        HShape.highlight2(HCircle.class);
         for (HShape shape : shapes) {
             shape.draw();
         }

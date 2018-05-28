@@ -5,7 +5,7 @@ interface Waterproof{}
 interface Shoots{}
 
 class Toy{
-    //Toy(){}
+    Toy(){}
     Toy(int i) {}
 }
 
