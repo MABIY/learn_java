@@ -5,7 +5,7 @@ import java.util.*;
 public abstract class PetCreator {
     private Random rand = new Random(47);
 
-    // The list of the different types of Pet to create
+    // The List of the different types of Pet to create
     public abstract List<Class<? extends Pet>> types();
 
     public Pet randomPet() { // Create one random Pet
@@ -13,9 +13,9 @@ public abstract class PetCreator {
         try {
             return types().get(n).newInstance();
         } catch (IllegalAccessException e) {
-            throw new RuntimeException();
+            throw new RuntimeException(e);
         } catch (InstantiationException e) {
-            throw new RuntimeException();
+            throw new RuntimeException(e);
         }
     }
 
@@ -28,7 +28,7 @@ public abstract class PetCreator {
     }
 
     public ArrayList<Pet> arrayList(int size) {
-        ArrayList<Pet> result = new ArrayList<Pet>();
+        ArrayList<Pet> result = new ArrayList<>();
         Collections.addAll(result, createArray(size));
         return result;
     }
