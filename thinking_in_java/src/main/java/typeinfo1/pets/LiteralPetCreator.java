@@ -1,12 +1,12 @@
 package typeinfo1.pets;
 
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 public class LiteralPetCreator extends PetCreator{
     //no try block needed.
-    @SuppressWarnings("unchecked")
     public static final List<Class<? extends Pet>> allTypes =
             Collections.unmodifiableList(Arrays.asList(
                     Pet.class, Dog.class, Cat.class, Rodent.class,
