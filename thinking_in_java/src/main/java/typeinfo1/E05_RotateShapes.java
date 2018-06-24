@@ -1,30 +1,28 @@
 package typeinfo1;
 
-import javax.management.remote.rmi.RMIConnectionImpl;
 import java.util.Arrays;
 import java.util.List;
 
 abstract class RShape {
     void draw() {
-        System.out.println(this + ".draw");
+        System.out.println(this + ".draw()");
     }
 
     abstract public String toString();
 
-    void rotate(int degrees) {
-        System.out.println("Rotating " + this + " by " +degrees +" degrees");
+    void rorate(int degrees) {
+        System.out.println("Rotating " + this +
+                " by " + degrees + " degrees");
     }
 }
 
 class RCircle extends RShape {
+    void rorate(int degrees) {
+        throw new UnsupportedOperationException();
+    }
     @Override
     public String toString() {
         return "Circle";
-    }
-
-    @Override
-    void rotate(int degrees) {
-        throw new UnsupportedOperationException();
     }
 }
 
@@ -41,12 +39,11 @@ class RTriangle extends RShape {
         return "Triangle";
     }
 }
-
 public class E05_RotateShapes {
     static void rotateAll(List<RShape> shapes) {
         for (RShape shape : shapes) {
             if (!(shape instanceof RCircle)) {
-                shape.rotate(45);
+                shape.rorate(45);
             }
         }
     }
@@ -55,6 +52,7 @@ public class E05_RotateShapes {
         List<RShape> shapes = Arrays.asList(
                 new RCircle(), new RSquare(), new RTriangle()
         );
+
         rotateAll(shapes);
     }
 }

@@ -11,12 +11,11 @@ interface Iface {
 }
 
 class Base implements Iface {
-    String s;
-    double d;
     @Override
     public void f() {
         System.out.println("Base.f");
     }
+
 }
 
 class Composed {
@@ -24,34 +23,37 @@ class Composed {
 }
 
 class Derived extends Base {
-    private static Composed c;
+    Composed c;
     String s;
 }
-
 public class E09_GetDeclaredFields {
-    static Set<Class<?>> alreadyDisplayed = new HashSet<>();
+
+    static Set<Class<?>> aleradyDisplayed = new HashSet<>();
 
     static void printClasses(Class<?> c) {
-        // getSuperclass() return null on object:
+        // getSuperClass() returns null on object:
         if (c == null) {
             return;
         }
         System.out.println(c.getName());
         Field[] fields = c.getDeclaredFields();
         if (fields.length != 0) {
-            System.out.println("Fields:");
+            System.out.println("Fileds:");
         }
-        for (Field fld : fields) {
-            System.out.println("  " + fld);
+        for (Field field : fields) {
+            System.out.println(" " + field);
         }
-        for (Field fld : fields) {
-            Class<?> k = fld.getType();
-            if (!alreadyDisplayed.contains(k)) {
+
+        for (Field field : fields) {
+            Class<?> k =field.getType();
+            if (!aleradyDisplayed.contains(k)) {
                 printClasses(k);
-                alreadyDisplayed.add(k);
+                aleradyDisplayed.add(k);
             }
         }
-        // Produces the interfaces that this class implements
+
+        // Produces the interfaces that this class
+        // implements
         for (Class<?> k : c.getInterfaces()) {
             System.out.println("Interface: " + k.getName());
             printClasses(k.getSuperclass());
@@ -60,12 +62,12 @@ public class E09_GetDeclaredFields {
     }
 
     public static void main(String[] args) throws ClassNotFoundException {
-        args = new String[]{Derived.class.getName()};
+        args = new String[]{"typeinfo1.Derived"};
         for (int i = 0; i < args.length; i++) {
             System.out.println("Displaying " + args[i]);
             printClasses(Class.forName(args[i]));
             if (i < args.length - 1) {
-                System.out.println("====================");
+                System.out.println("==========");
             }
         }
     }

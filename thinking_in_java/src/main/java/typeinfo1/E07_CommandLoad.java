@@ -1,18 +1,18 @@
 package typeinfo1;
 
-class Candy_07 {
+class Candy7 {
     static {
         System.out.println("Loading Candy");
     }
 }
 
-class Gum_07 {
+class Gm7 {
     static {
-        System.out.println("Loading Gum");
+        System.out.println("LOading Gum");
     }
 }
 
-class Cookie_07 {
+class Cookie7 {
     static {
         System.out.println("Loading Cookie");
     }

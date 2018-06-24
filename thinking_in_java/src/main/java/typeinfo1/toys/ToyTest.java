@@ -4,22 +4,23 @@ interface HasBatteries{}
 interface Waterproof{}
 interface Shoots{}
 class Toy {
+    // Comment out the following default constructor
+    // to see NoSuchMethodError from
     Toy() {}
-
-    Toy(int i) {}
+    Toy(int i){}
 }
 
-class FancyToy extends Toy implements HasBatteries,Waterproof,Shoots{
+class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {
     public FancyToy() {
         super(1);
     }
 }
 public class ToyTest {
     static void printInfo(Class cc) {
-        System.out.println("Class name:" + cc.getName() +
-                " is interface? [" + cc.isInterface() + "]");
+        System.out.println("Class name: " + cc.getName()
+                + "is interface? [" + cc.isInterface() + "]");
         System.out.println("Simple name: " + cc.getSimpleName());
-        System.out.println("Canonical name:" + cc.getCanonicalName());
+        System.out.println("Canonical name: " + cc.getCanonicalName());
     }
 
     public static void main(String[] args) {
@@ -37,15 +38,16 @@ public class ToyTest {
         Class up = c.getSuperclass();
         Object obj = null;
         try {
-            //Requires defualt constructor
+            // Required defualt constructor
             obj = up.newInstance();
-        } catch (InstantiationException e) {
-            System.out.println("Cannot instantiationException");
-            System.exit(1);
         } catch (IllegalAccessException e) {
             System.out.println("Cannot access");
             System.exit(1);
+        } catch (InstantiationException e) {
+            System.out.println("Cannot instaniate");
+            System.exit(1);
         }
+
         printInfo(obj.getClass());
     }
 }

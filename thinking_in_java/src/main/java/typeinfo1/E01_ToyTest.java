@@ -1,51 +1,57 @@
 package typeinfo1;
 
 interface HasBatteries{}
+
 interface Waterproof{}
+
 interface Shoots{}
 
-class Toy{
-    Toy(){}
-    Toy(int i) {}
+class Toy {
+    // Comment out the following default constructor
+    // to see NoSuchMethodError from
+    //Toy() {}
+    Toy(int i){}
 }
 
-class FancyToy extends Toy implements HasBatteries,Waterproof,Shoots {
+class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {
     public FancyToy() {
         super(1);
     }
 }
+
 public class E01_ToyTest {
-    static void printInfo(Class<?> cc) {
+    static void printInfo(Class cc) {
         System.out.println("Class name: " + cc.getName()
                 + "is interface? [" + cc.isInterface() + "]");
-        System.out.println("Simple name:" + cc.getSimpleName());
+        System.out.println("Simple name: " + cc.getSimpleName());
         System.out.println("Canonical name: " + cc.getCanonicalName());
     }
 
     public static void main(String[] args) {
-        Class<?> c = null;
+        Class c = null;
         try {
             c = Class.forName("typeinfo1.FancyToy");
         } catch (ClassNotFoundException e) {
             System.out.println("Can't find FancyToy");
-            return;
+            System.exit(1);
         }
         printInfo(c);
-        for (Class<?> face : c.getInterfaces()) {
+        for (Class face : c.getInterfaces()) {
             printInfo(face);
         }
-        Class<?> up = c.getSuperclass();
+        Class up = c.getSuperclass();
         Object obj = null;
         try {
-            //Requires defualt constructor:
+            // Required defualt constructor
             obj = up.newInstance();
         } catch (IllegalAccessException e) {
             System.out.println("Cannot access");
-            return;
+            System.exit(1);
         } catch (InstantiationException e) {
-            System.out.println("Cannot instantiate");
-            return;
+            System.out.println("Cannot instaniate");
+            System.exit(1);
         }
+
         printInfo(obj.getClass());
     }
 }

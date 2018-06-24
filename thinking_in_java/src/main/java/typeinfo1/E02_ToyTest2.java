@@ -1,19 +1,16 @@
 package typeinfo1;
 
-interface HasCPU {
-}
+interface HashCPU{}
 
-interface A extends HasCPU {
-}
-class FancierToy extends FancyToy implements HasCPU {
+class FancierToy extends FancyToy implements HashCPU {
 
 }
-
 public class E02_ToyTest2 {
     static void printInfo(Class<?> cc) {
-        System.out.println("Class name: " + cc.getName());
+        System.out.println("Class name: " + cc.getName() + "" +
+                "is interface? [" + cc.isInterface() + "]");
         System.out.println("Simple name: " + cc.getSimpleName());
-        System.out.println("Canonical name :" + cc.getCanonicalName());
+        System.out.println("Canonical name : " + cc.getCanonicalName());
     }
 
     public static void main(String[] args) {
@@ -25,13 +22,16 @@ public class E02_ToyTest2 {
             System.exit(1);
         }
         printInfo(c);
+
         for (Class<?> face : c.getInterfaces()) {
             printInfo(face);
         }
+
         Class<?> up = c.getSuperclass();
         Object obj = null;
+
         try {
-            obj = up == null ? null:up.newInstance();
+            obj = up.newInstance();
         } catch (IllegalAccessException e) {
             System.out.println("Cannot access");
             System.exit(1);

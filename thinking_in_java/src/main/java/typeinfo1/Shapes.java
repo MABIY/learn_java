@@ -3,44 +3,39 @@ package typeinfo1;
 import java.util.Arrays;
 import java.util.List;
 
-abstract class Shape {
-    public String a ="Shape.a";
-
+abstract class Shape{
     void draw() {
-        System.out.println(this + ".draw()" +this.a);
+        System.out.println(this + ".draw()");
     }
 
-    abstract public String toString();
+    public abstract String toString();
 }
 
 class Circle extends Shape {
-    public String a = "sub.a";
     @Override
     public String toString() {
-        return "Circle{}";
+        return "Circle";
     }
 }
 
 class Square extends Shape {
-    public String a = "sub.a";
     @Override
     public String toString() {
-        return "Square{}";
+        return "Square";
     }
 }
 
-class Traingle extends Shape {
-    public String a = "sub.a";
+class Triangle extends Shape {
     @Override
     public String toString() {
-        return "Traingle{}";
+        return "Triangle";
     }
 }
 
 public class Shapes {
-    public String a = "sub.a";
     public static void main(String[] args) {
-        List<Shape> shapeList = Arrays.asList(new Circle(), new Square(), new Traingle());
+        Shape[] shapes = {new Circle(), new Square(), new Triangle()};
+        List<Shape> shapeList = Arrays.asList(shapes);
         for (Shape shape : shapeList) {
             shape.draw();
         }
