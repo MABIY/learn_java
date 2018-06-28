@@ -28,5 +28,6 @@ public abstract class PetCreator {
     public ArrayList<Pet> arrayList(int size) {
         ArrayList<Pet> result = new ArrayList<>();
         Collections.addAll(result, createArray(size));
+        return result;
     }
 }
