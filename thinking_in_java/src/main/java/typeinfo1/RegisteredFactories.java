@@ -6,6 +6,7 @@ import typeinfo1.factory.Factory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 //lhtd writing
 class Part {
