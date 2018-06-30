@@ -5,7 +5,9 @@ import typeinfo1.pets.LiteralPetCreator;
 import typeinfo1.pets.Pet;
 import typeinfo1.pets.Pets;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class PetCount3 {

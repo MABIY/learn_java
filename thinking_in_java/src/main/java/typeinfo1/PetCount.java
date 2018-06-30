@@ -1,6 +1,7 @@
 package typeinfo1;
 
 import typeinfo1.pets.*;
+import typeinfo1.pets1.Gerbil;
 
 import java.util.HashMap;
 
@@ -45,6 +46,9 @@ public class PetCount {
                 counter.count("Mouse");
             if(pet instanceof Hamster)
                 counter.count("Hamster");
+            if (pet instanceof Gerbil) {
+                counter.count("Gerbil");
+            }
         }
         System.out.println();
         System.out.println(counter);
