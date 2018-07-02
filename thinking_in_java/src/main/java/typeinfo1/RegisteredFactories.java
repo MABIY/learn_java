@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-//lhtd writing
 class Part {
     static List<Factory<? extends Part>> partFactories = new ArrayList<>();
     private static Random rand = new Random(47);

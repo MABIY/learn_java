@@ -12,7 +12,10 @@ public class Coffee {
     private static int counter = 0;
     private int id = counter++;
 
-    private static List<Factory<? extends Coffee>> coffeeFacotries = Arrays.asList();
+    private static List<Factory<? extends Coffee>> coffeeFacotries = Arrays.asList(
+            new Americano.Factory(),new Breve.Factory(),new Latte.Factory(),
+            new Mocha.Factory(),new Cappucino.Factory()
+    );
 
     private static Random rand = new Random(47);
 
