@@ -1,6 +1,7 @@
 package lh.com.util;
 
-import net.mindview.util.Generator;
+
+import generics1.util.Generator;
 
 import java.util.Random;
 

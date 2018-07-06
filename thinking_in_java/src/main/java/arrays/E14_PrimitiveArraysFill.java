@@ -46,21 +46,5 @@ public class E14_PrimitiveArraysFill {
         float[] a7 = new float[size];
         double[] a8 = new double[size];
         // Now fill them using a matching generator
-        Fill.primitive(a1,new CountingGenerator.Boolean());
-        System.out.println("a1 = " +Arrays.toString(a1));
-        Fill.primitive(a2,new CountingGenerator.Byte());
-        System.out.println("a2 = " +Arrays.toString(a2));
-        Fill.primitive(a3, new CountingGenerator.Character());
-        System.out.println("a3 = " +Arrays.toString(a3));
-        Fill.primitive(a4, new CountingGenerator.Short());
-        System.out.println("a4 = " +Arrays.toString(a4));
-        Fill.primitive(a5, new CountingGenerator.Integer());
-        System.out.println("a5 = " +Arrays.toString(a5));
-        Fill.primitive(a6, new CountingGenerator.Long());
-        System.out.println("a6 = " +Arrays.toString(a6));
-        Fill.primitive(a7, new CountingGenerator.Float());
-        System.out.println("a7 = " +Arrays.toString(a7));
-        Fill.primitive(a8, new CountingGenerator.Double());
-        System.out.println("a8 = " +Arrays.toString(a8));
     }
 }

@@ -21,4 +21,3 @@ public class GenericVarags {
         System.out.println(ls);
     }
 }
-
