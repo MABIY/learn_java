@@ -22,14 +22,26 @@ class ClassAsFactory1<T>{
                     }
                 }
             }
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
+            // Technique 2 (direct)
+//            Constructor<T> ct = kind.getConstructor(int.class);
+//            return ct.newInstance(arg);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
+        return null;
     }
 }
 public class E22_InstantiateGenericType2 {
+    public static void main(String[] args) {
+        ClassAsFactory1<Employee> fe = new ClassAsFactory1<>(Employee.class);
+        Employee emp = fe.create(1);
+        if (emp == null) {
+            System.out.println("Emloyee cannot be instaniated!");
+        }
+        ClassAsFactory1<Integer> fi = new ClassAsFactory1<>(Integer.class);
+        Integer i = fi.create(0);
+        if (i == null) {
+            System.out.println("Integer cannot be instantiated!");
+        }
+    }
 }
