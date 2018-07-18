@@ -1,7 +1,5 @@
 package generics1;
 
-import typeinfo1.factory.Factory;
-
 interface FactoryI<T>{
     T create();
 }

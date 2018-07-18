@@ -1,7 +1,6 @@
 package generics1;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 class ClassAsFactory1<T>{
     Class<T> kind;
