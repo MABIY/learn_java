@@ -11,6 +11,7 @@ public class E27_GenericsAndCovariance2 {
 //        nlist.add(new Integer(1));
 //        nlist.add(new Float(1.0));
 //        nlist.add(new Object());
+
         nlist.add(null); // Legal but uninteresting
         // We know that it returns at least Number:
 
