@@ -16,7 +16,7 @@ class SelfBounded<T extends SelfBounded<T>> {
 class A extends SelfBounded<A>{
 
 }
-class B extends SelfBounded<B>{} // Also ok
+class B extends SelfBounded<A>{} // Also ok
 
 
 class C extends SelfBounded<C>{
