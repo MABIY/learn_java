@@ -1,15 +1,15 @@
 package arrays;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import lh.com.util.ConvertTo;
-import lh.com.util.CountingGenerator;
 import lh.com.util.Generated;
 import net.mindview.util.Generator;
-import org.jcp.xml.dsig.internal.dom.DOMUtils;
 
 import java.util.Arrays;
 
-class SkipGenerator{
+class SkipGenerator {
+    static char[] chars = ("abcdefghijklmnopqrestuvwxyz" +
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
+
     public static class Boolean implements Generator<java.lang.Boolean> {
         private boolean value;
         private boolean step;
@@ -25,12 +25,14 @@ class SkipGenerator{
         }
     }
 
-    public static class Byte implements Generator<java.lang.Byte>{
+    public static class Byte implements Generator<java.lang.Byte> {
         private byte value;
         private byte step;
-        public Byte(byte step){
+
+        public Byte(byte step) {
             this.step = step;
         }
+
         @Override
         public java.lang.Byte next() {
             byte oldvalue = value;
@@ -39,9 +41,6 @@ class SkipGenerator{
         }
     }
 
-    static char[] chars = ("abcdefghijklmnopqrestuvwxyz" +
-            "ABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
-
     public static class Character implements Generator<java.lang.Character> {
         int index;
         private int step;
@@ -49,6 +48,7 @@ class SkipGenerator{
         public Character(int step) {
             this.step = step;
         }
+
         @Override
         public java.lang.Character next() {
             char oldValue = chars[index];
@@ -58,8 +58,9 @@ class SkipGenerator{
     }
 
     public static class String implements Generator<java.lang.String> {
-        private int length;
         Generator<java.lang.Character> cg;
+        private int length;
+
         public String(int step) {
             this(step, 7);
         }
@@ -80,7 +81,7 @@ class SkipGenerator{
 
     }
 
-    public static class Short implements Generator<java.lang.Short>{
+    public static class Short implements Generator<java.lang.Short> {
         private short value;
         private short step;
 
@@ -96,7 +97,7 @@ class SkipGenerator{
         }
     }
 
-    public static class Integer implements Generator<java.lang.Integer>{
+    public static class Integer implements Generator<java.lang.Integer> {
         private int value;
         private int step;
 
@@ -112,12 +113,14 @@ class SkipGenerator{
         }
     }
 
-    public static class Long implements Generator<java.lang.Long>{
+    public static class Long implements Generator<java.lang.Long> {
         private long value;
 
         private long step;
 
-        public Long(long step) { this.step = step; }
+        public Long(long step) {
+            this.step = step;
+        }
 
         @Override
         public java.lang.Long next() {
@@ -143,7 +146,7 @@ class SkipGenerator{
         }
     }
 
-    public static class Double implements Generator<java.lang.Double>{
+    public static class Double implements Generator<java.lang.Double> {
         private double value;
         private double step;
 
@@ -160,6 +163,7 @@ class SkipGenerator{
     }
 
 }
+
 public class E16_SkipGenerator {
     public static void main(String[] args) {
         boolean[] a1 = ConvertTo.primitive(Generated.array(Boolean.class, new SkipGenerator.Boolean(true), 6));
@@ -177,7 +181,7 @@ public class E16_SkipGenerator {
         long[] a6 = ConvertTo.primitive(Generated.array(Long.class, new SkipGenerator.Long(5l), 6));
         System.out.println("a6 = " + Arrays.toString(a6));
         float[] a7 = ConvertTo.primitive(Generated.array(Float.class, new SkipGenerator.Float(1.5f), 6));
-        System.out.println("a7 =" +Arrays.toString(a7));
+        System.out.println("a7 =" + Arrays.toString(a7));
         double[] a8 = ConvertTo.primitive(Generated.array(Double.class, new SkipGenerator.Double(2.0), 6));
         System.out.println("a8 = " + Arrays.toString(a8));
     }
