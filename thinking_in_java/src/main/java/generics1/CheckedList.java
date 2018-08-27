@@ -14,6 +14,5 @@ public class CheckedList {
     public static void main(String[] args) {
         List<Dog> dogs1 = new ArrayList<>();
         oldStyleMethod(dogs1); // Quietly accepts a Cat
-        //lhtd starting
     }
 }
