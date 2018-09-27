@@ -56,7 +56,7 @@ class Stringed extends Instrument {
 
 class Brass extends Wind{
     void play(Note n) {
-        print("Stringed.play() " + n);
+        print("Brass.play() " + n);
     }
 
     @Override
