@@ -6,6 +6,9 @@ import java.util.*;
 
 import static net.mindview.util.Print.print;
 
+import typeinfo.pets.Hamster;
+import typeinfo.pets.Mouse;
+
 public class ListFeaturese {
     public static void main(String[] args) {
         Random rand = new Random(47);
