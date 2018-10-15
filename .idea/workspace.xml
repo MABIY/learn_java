@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java" description="java 轨迹如何打印" line="564" />
+    <bookmark url="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Orc.java" line="42" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E01_SimpleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E02_NullReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E03_ArrayIndexBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E04_ExceptionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E05_Resumption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/FullConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/InheritingExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/head_first_java/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-478546852">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.opened" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="6" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="13" />
+          <entry key="java" value="297" />
+          <entry key="js" value="1" />
+          <entry key="package-list" value="1" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="13" />
+          <entry key="JAVA" value="297" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="dummy" value="17" />
+          <entry key="gitignore" value="18" />
+          <entry key="java" value="61639" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="61637" />
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="RegExp" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="learn_java" />
+    <favorites_list name="java source code">
+      <favorite_root url="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+              <folding>
+                <element signature="e#4483#4484#0" expanded="true" />
+                <element signature="e#4515#4516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/StreamHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/SimpleFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="576" column="52" selection-start-line="576" selection-start-column="52" selection-end-line="576" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#18087#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5520#5521#0" expanded="true" />
+                <element signature="e#5553#5554#0" expanded="true" />
+                <element signature="e#5717#5718#0" expanded="true" />
+                <element signature="e#5750#5751#0" expanded="true" />
+                <element signature="e#6152#6153#0" expanded="true" />
+                <element signature="e#6189#6190#0" expanded="true" />
+                <element signature="e#6373#6374#0" expanded="true" />
+                <element signature="e#6412#6413#0" expanded="true" />
+                <element signature="e#6778#6779#0" expanded="true" />
+                <element signature="e#6819#6820#0" expanded="true" />
+                <element signature="e#7005#7006#0" expanded="true" />
+                <element signature="e#7046#7047#0" expanded="true" />
+                <element signature="e#7198#7199#0" expanded="true" />
+                <element signature="e#7226#7227#0" expanded="true" />
+                <element signature="e#7816#7817#0" expanded="true" />
+                <element signature="e#7853#7854#0" expanded="true" />
+                <element signature="e#8139#8140#0" expanded="true" />
+                <element signature="e#8175#8176#0" expanded="true" />
+                <element signature="e#10871#10872#0" expanded="true" />
+                <element signature="e#10901#10902#0" expanded="true" />
+                <element signature="e#11098#11099#0" expanded="true" />
+                <element signature="e#11136#11137#0" expanded="true" />
+                <element signature="e#11352#11353#0" expanded="true" />
+                <element signature="e#11385#11386#0" expanded="true" />
+                <element signature="e#11575#11576#0" expanded="true" />
+                <element signature="e#11619#11620#0" expanded="true" />
+                <element signature="e#11892#11893#0" expanded="true" />
+                <element signature="e#11923#11924#0" expanded="true" />
+                <element signature="e#12092#12093#0" expanded="true" />
+                <element signature="e#12132#12133#0" expanded="true" />
+                <element signature="e#12283#12284#0" expanded="true" />
+                <element signature="e#12312#12313#0" expanded="true" />
+                <element signature="e#12453#12454#0" expanded="true" />
+                <element signature="e#12489#12490#0" expanded="true" />
+                <element signature="e#12744#12745#0" expanded="true" />
+                <element signature="e#12773#12774#0" expanded="true" />
+                <element signature="e#12945#12946#0" expanded="true" />
+                <element signature="e#12981#12982#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Orc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/JavaLangAccess.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package object;</find>
+      <find>final</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Detergent.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Sterilizer.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Cartoon.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Cartoon2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/C.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/C5.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/BoardGame.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/BoardGame6.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Chess.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/C7.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Ex8.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E09_ConstructorOrder2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E10_ConstructorOrder3.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Orc.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E15_Protected.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E15_ProtectedTest.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/WInd.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Wind.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E16_Frog.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E17_Frog2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/FinalData.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E18_FinalFields.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/BlankFinal.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E19_BlankFinalField.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/FinalArguments.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/FinalOverridingIllusion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E20_OVerrideAnnotation.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E21_FinalMethod.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Jurassic.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E22_FinalClass.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E23_ClassLoading.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E24_JapaneseBeetle.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Beetle.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/innerclasses/LocalInnerClass.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SetOfInteger.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SortedSetOfInteger.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SetOperations.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/holding/PriorityQueueDemo.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/IneritingExceptions.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/InheritingExceptions.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/FullConstructors.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E01_SimpleExcetpion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E01_SimpleExcepion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E01_SimpleException.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E02_NullReference.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E03_ArrayIndexBounds.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E04_ExceptionClass.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E05_Resumption.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thinking_in_java/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="object" />
+      <recent name="object.Rainbow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="access.debugoff" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java" />
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoggingExceptions">
+    <configuration name="E02_NullReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.E02_NullReference" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E03_ArrayIndexBounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.E03_ArrayIndexBounds" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E04_ExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.E04_ExceptionClass" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E05_Resumption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.E05_Resumption" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.LoggingExceptions" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.E02_NullReference" />
+      <item itemvalue="Application.E03_ArrayIndexBounds" />
+      <item itemvalue="Application.E04_ExceptionClass" />
+      <item itemvalue="Application.E05_Resumption" />
+      <item itemvalue="Application.LoggingExceptions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoggingExceptions" />
+        <item itemvalue="Application.E05_Resumption" />
+        <item itemvalue="Application.E04_ExceptionClass" />
+        <item itemvalue="Application.E03_ArrayIndexBounds" />
+        <item itemvalue="Application.E02_NullReference" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="" />
+      <created>1534557106112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534557106112</updated>
+      <workItem from="1534557108372" duration="6038000" />
+      <workItem from="1534590914851" duration="599000" />
+      <workItem from="1534639388437" duration="7489000" />
+      <workItem from="1535172583161" duration="815000" />
+      <workItem from="1535456525754" duration="169000" />
+      <workItem from="1536381657873" duration="519000" />
+      <workItem from="1536382189677" duration="678000" />
+      <workItem from="1536382881266" duration="261000" />
+      <workItem from="1536383154978" duration="172000" />
+      <workItem from="1536383399077" duration="18084000" />
+      <workItem from="1536488878035" duration="10548000" />
+      <workItem from="1536584166805" duration="4338000" />
+      <workItem from="1536929922809" duration="9221000" />
+      <workItem from="1537014207067" duration="12383000" />
+      <workItem from="1537084903200" duration="156000" />
+      <workItem from="1537085077773" duration="30000" />
+      <workItem from="1537085175786" duration="117000" />
+      <workItem from="1537093356303" duration="9311000" />
+      <workItem from="1537190632097" duration="1018000" />
+      <workItem from="1537191667799" duration="6907000" />
+      <workItem from="1538224697681" duration="58000" />
+      <workItem from="1538224780783" duration="528000" />
+      <workItem from="1539123473579" duration="1435000" />
+      <workItem from="1539177180791" duration="2628000" />
+      <workItem from="1539603604530" duration="7337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="100839000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49361023" visible="true" weight="0.29895833" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5063898" side_tool="true" weight="0.29895833" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49375" weight="0.40143004" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50625" side_tool="true" weight="0.028688524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991803" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.496875" weight="0.35860655" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49583334" weight="0.335041" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991803" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49926037" weight="0.32889345" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32991803" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32894737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.53125" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49361023" visible="true" weight="0.29895833" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5063898" side_tool="true" weight="0.29895833" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49375" weight="0.40143004" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50625" side_tool="true" visible="true" weight="0.028688524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991803" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.496875" weight="0.35860655" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49583334" weight="0.335041" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991803" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49926037" weight="0.32889345" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32991803" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32894737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.53125" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java</url>
+          <line>542</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+        <breakpoint suspend="THREAD" type="java-field" />
+      </breakpoints-defaults>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==2200</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==2200</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>frame.getMethodName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cname</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>access.getStackTraceDepth(throwable)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>access</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SharedSecrets.getJavaLangAccess()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Sha</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record.getSourceClassName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>formatter</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="1321" column="8" selection-start-line="1321" selection-start-column="8" selection-end-line="1321" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/FinalArguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/FinalOverridingIllusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E20_OVerrideAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E21_FinalMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Jurassic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E22_FinalClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Beetle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E23_ClassLoading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E24_JapaneseBeetle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/simple/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/innerclasses/LocalInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/E15_ProtectedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/innerclasses/E15_ReturningAnonymousIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/holding/E15_Evaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SetOfInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SortedSetOfInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/SortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/holding/SetOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#124311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89015">
+          <caret line="5123" column="35" selection-start-line="5123" selection-start-column="35" selection-end-line="5123" selection-end-column="35" />
+          <folding>
+            <element signature="e#197058#197059#0" expanded="true" />
+            <element signature="e#197128#197129#0" expanded="true" />
+            <element signature="e#197522#197523#0" expanded="true" />
+            <element signature="e#197569#197570#0" expanded="true" />
+            <element signature="e#197724#197725#0" expanded="true" />
+            <element signature="e#197780#197781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6156">
+          <caret line="356" column="67" selection-start-line="356" selection-start-column="67" selection-end-line="356" selection-end-column="67" />
+          <folding>
+            <element signature="e#7819#7820#0" expanded="true" />
+            <element signature="e#7872#7873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Comparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71022">
+          <caret line="3812" column="25" selection-start-line="3812" selection-start-column="25" selection-end-line="3812" selection-end-column="25" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/holding/PriorityQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/InheritingExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/FullConstructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E01_SimpleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E02_NullReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E03_ArrayIndexBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E04_ExceptionClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E05_Resumption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="737" selection-start-line="737" selection-end-line="737" />
+          <folding>
+            <element signature="e#64195#64196#0" expanded="true" />
+            <element signature="e#64233#64234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/ConsoleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+          <folding>
+            <element signature="e#4483#4484#0" expanded="true" />
+            <element signature="e#4515#4516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/StreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/SimpleFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/JavaLangAccess.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/reusing/Orc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="576" column="52" selection-start-line="576" selection-start-column="52" selection-end-line="576" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#18087#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5520#5521#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
+            <element signature="e#5750#5751#0" expanded="true" />
+            <element signature="e#6152#6153#0" expanded="true" />
+            <element signature="e#6189#6190#0" expanded="true" />
+            <element signature="e#6373#6374#0" expanded="true" />
+            <element signature="e#6412#6413#0" expanded="true" />
+            <element signature="e#6778#6779#0" expanded="true" />
+            <element signature="e#6819#6820#0" expanded="true" />
+            <element signature="e#7005#7006#0" expanded="true" />
+            <element signature="e#7046#7047#0" expanded="true" />
+            <element signature="e#7198#7199#0" expanded="true" />
+            <element signature="e#7226#7227#0" expanded="true" />
+            <element signature="e#7816#7817#0" expanded="true" />
+            <element signature="e#7853#7854#0" expanded="true" />
+            <element signature="e#8139#8140#0" expanded="true" />
+            <element signature="e#8175#8176#0" expanded="true" />
+            <element signature="e#10871#10872#0" expanded="true" />
+            <element signature="e#10901#10902#0" expanded="true" />
+            <element signature="e#11098#11099#0" expanded="true" />
+            <element signature="e#11136#11137#0" expanded="true" />
+            <element signature="e#11352#11353#0" expanded="true" />
+            <element signature="e#11385#11386#0" expanded="true" />
+            <element signature="e#11575#11576#0" expanded="true" />
+            <element signature="e#11619#11620#0" expanded="true" />
+            <element signature="e#11892#11893#0" expanded="true" />
+            <element signature="e#11923#11924#0" expanded="true" />
+            <element signature="e#12092#12093#0" expanded="true" />
+            <element signature="e#12132#12133#0" expanded="true" />
+            <element signature="e#12283#12284#0" expanded="true" />
+            <element signature="e#12312#12313#0" expanded="true" />
+            <element signature="e#12453#12454#0" expanded="true" />
+            <element signature="e#12489#12490#0" expanded="true" />
+            <element signature="e#12744#12745#0" expanded="true" />
+            <element signature="e#12773#12774#0" expanded="true" />
+            <element signature="e#12945#12946#0" expanded="true" />
+            <element signature="e#12981#12982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>thinking_in_java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
