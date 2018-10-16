@@ -11,6 +11,9 @@ class Foul extends BaseballException {
 class Strike extends BaseballException {
 }
 
+class UmpireArgument extends BaseballException {
+}
+
 abstract class Inning {
     public Inning() throws BaseballException {
     }
@@ -19,7 +22,9 @@ abstract class Inning {
         //Doesn't actually have to thrown anything
     }
 
-    public abstract void atBat() throws Strike, Foul;
+    public abstract void atBat() throws Strike, Foul,UmpireArgument;
+
+    abstract void decision() throws UmpireArgument;
 
     public void walk() { // Throws no checked exceptions
     }
@@ -76,7 +81,12 @@ public class StormyInning  extends Inning implements Storm{
 
     //Overridden methods  can thrown inherited exception
     @Override
-    public void atBat() throws  PopFoul {
+    public void atBat() throws  PopFoul,UmpireArgument {
+    }
+
+    @Override
+    void decision() throws UmpireArgument {
+
     }
 
     public static void main(String[] args) {
@@ -107,6 +117,24 @@ public class StormyInning  extends Inning implements Storm{
             e.printStackTrace();
         } catch (RainedOut rainedOut) {
             rainedOut.printStackTrace();
+        }
+
+        // Or you can add code to catch the
+        // specific type of exception
+        try {
+            StormyInning si = new StormyInning();
+            si.atBat();
+            si.decision();
+        } catch (UmpireArgument umpireArgument) {
+            System.out.println(
+                    "Argument with the umpire"
+            );
+        } catch (PopFoul popFoul) {
+            System.out.println("Rained out");
+        } catch (BaseballException e) {
+            System.out.println("Generic error");
+        } catch (RainedOut rainedOut) {
+            System.out.println("Rained out");
         }
     }
 }
