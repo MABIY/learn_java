@@ -20,10 +20,10 @@ public class LoggingExceptions {
         } catch (LoggingException e) {
             System.out.println("Caught " + e);
         }
-        try {
-            throw new LoggingException();
-        } catch (LoggingException e) {
-            System.out.println("Caught " + e);
-        }
+        // try {
+        //     throw new LoggingException();
+        // } catch (LoggingException e) {
+        //     System.out.println("Caught " + e);
+        // }
     }
 }
