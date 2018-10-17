@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,10 +37,10 @@
     <session id="-478546852">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -50,7 +49,7 @@
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="6" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +61,7 @@
           <entry key="java" value="330" />
           <entry key="js" value="1" />
           <entry key="package-list" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -73,7 +72,7 @@
           <entry key="JAVA" value="330" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -141,106 +140,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/LogRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="542" column="28" selection-start-line="542" selection-start-column="28" selection-end-line="542" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#18087#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/src.zip!/java/util/logging/LogRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="543" column="53" selection-start-line="543" selection-start-column="53" selection-end-line="543" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#18087#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#1991#1992#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/SimpleFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/StreamHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/ConsoleHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="1461" column="6" selection-start-line="1461" selection-start-column="6" selection-end-line="1461" selection-end-column="6" />
-              <folding>
-                <element signature="e#64195#64196#0" expanded="true" />
-                <element signature="e#64233#64234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/JavaLangAccess.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2869">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -253,9 +157,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -356,11 +257,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="592" />
-    <option name="y" value="243" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="-2" />
     <option name="width" value="960" />
-    <option name="height" value="1078" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -414,7 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,50 +323,11 @@
               <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -637,12 +499,13 @@
       <workItem from="1539676417270" duration="8033000" />
       <workItem from="1539695187231" duration="6223000" />
       <workItem from="1539736584843" duration="8450000" />
-      <workItem from="1539745316419" duration="5696000" />
+      <workItem from="1539745316419" duration="5918000" />
+      <workItem from="1539761751302" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147554000" />
+    <option name="totallyTimeSpent" value="149315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,10 +517,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="960" y="-2" width="960" height="1082" extended-state="4" />
     <layout>
       <window_info id="JRebel" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48705882" visible="true" weight="0.20374331" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.48705882" weight="0.42967033" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24947369" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -666,14 +529,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.32912722" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
       <window_info anchor="bottom" id="JRebel Console" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4901099" weight="0.39810926" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4901099" weight="0.39726028" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005348" side_tool="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.32946146" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="6" sideWeight="0.496875" visible="true" weight="0.3256059" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="6" sideWeight="0.496875" weight="0.3256059" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49583334" weight="0.3340358" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32991803" />
+      <window_info active="true" anchor="bottom" id="TODO" order="10" visible="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Find" order="11" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -858,13 +721,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/FinallyWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/OnOffException2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1073,9 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,9 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#2577#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,28 +982,12 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-604">
           <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
-          <folding>
-            <element signature="e#10280#10281#0" expanded="true" />
-            <element signature="e#10314#10315#0" expanded="true" />
-            <element signature="e#15711#15712#0" expanded="true" />
-            <element signature="e#15747#15748#0" expanded="true" />
-            <element signature="e#16192#16193#0" expanded="true" />
-            <element signature="e#16227#16228#0" expanded="true" />
-            <element signature="e#26470#26471#0" expanded="true" />
-            <element signature="e#26528#26529#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,10 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="1461" column="6" selection-start-line="1461" selection-start-column="6" selection-end-line="1461" selection-end-column="6" />
-          <folding>
-            <element signature="e#64195#64196#0" expanded="true" />
-            <element signature="e#64233#64234#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,24 +1050,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/src.zip!/java/util/logging/LogRecord.java">
+    <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/jre/lib/rt.jar!/sun/misc/SharedSecrets.class" />
+    <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/src.zip!/java/util/logging/LogRecord.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="543" column="53" selection-start-line="543" selection-start-column="53" selection-end-line="543" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#18087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
         </state>
       </provider>
     </entry>
