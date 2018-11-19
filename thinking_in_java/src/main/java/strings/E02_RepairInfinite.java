@@ -3,11 +3,16 @@ package strings;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author: liuHua
+ * @create: 2018-11-18 20:35
+ **/
+
 public class E02_RepairInfinite {
 	@Override
 	public String toString() {
-		return "E02_RepairInfinite address: "
-				+ super.toString() + "\n";
+		return " E02_RepairInfinite address: " +
+				super.toString() + System.lineSeparator();
 	}
 	
 	public static void main(String[] args) {
