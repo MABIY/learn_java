@@ -12,6 +12,9 @@ public class BinaryFile {
     BufferedInputStream bf = new BufferedInputStream(
       new FileInputStream(bFile));
     try {
+      /**
+       * bf.available() lhtd need see
+       */
       byte[] data = new byte[bf.available()];
       bf.read(data);
       return data;

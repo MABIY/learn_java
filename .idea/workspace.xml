@@ -8,12 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E03_TurtleRedirected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E04_CustomizableReceipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/DatabaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E05_ComplexConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E06_ClassDump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Hex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/BinaryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/BinaryFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,23 +43,26 @@
     <session id="-478546852">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="9" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,7 +71,7 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="13" />
-          <entry key="java" value="366" />
+          <entry key="java" value="377" />
           <entry key="js" value="1" />
           <entry key="package-list" value="1" />
           <entry key="vmoptions" value="1" />
@@ -79,7 +83,7 @@
           <entry key="CLASS" value="16" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="13" />
-          <entry key="JAVA" value="366" />
+          <entry key="JAVA" value="377" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="7" />
@@ -91,14 +95,14 @@
           <entry key="dummy" value="45" />
           <entry key="ft" value="19" />
           <entry key="gitignore" value="24" />
-          <entry key="java" value="78963" />
+          <entry key="java" value="84882" />
           <entry key="vmoptions" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="78961" />
+          <entry key="JAVA" value="84880" />
           <entry key="PLAIN_TEXT" value="90" />
           <entry key="RegExp" value="2" />
           <entry key="VTL" value="19" />
@@ -154,58 +158,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleFormat.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/DatabaseException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E03_TurtleRedirected.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Hex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E04_CustomizableReceipt.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E06_ClassDump.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="545">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/BinaryFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/io/BufferedInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="407" column="28" selection-start-line="407" selection-start-column="28" selection-end-line="407" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54226">
+              <caret line="2939" column="23" selection-start-line="2939" selection-start-column="23" selection-end-line="2939" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/access/util/Print.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
+              <caret line="7217" column="8" selection-start-line="7217" selection-start-column="8" selection-end-line="7217" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -213,48 +253,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Formatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34219">
-              <caret line="1858" selection-start-line="1858" selection-end-line="1858" />
+            <state relative-caret-position="323">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <element signature="e#0#191191#0" expanded="true" />
+                <element signature="e#81177#81178#0" expanded="true" />
+                <element signature="e#81261#81262#0" expanded="true" />
+                <element signature="e#101735#101736#0" expanded="true" />
+                <element signature="e#101781#101782#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4066">
-              <caret line="241" column="36" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-              <folding>
-                <element signature="e#10065#10066#0" expanded="true" />
-                <element signature="e#10148#10149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/UsingStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/head_first_java/src/main/java/GameHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -281,6 +287,7 @@
       <find>CADSystem.dispose()</find>
       <find>di</find>
       <find>Logging</find>
+      <find>#</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -292,12 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/OnOffException1.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/OnOffException2.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/OnOffSwitch.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/WithFinally.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/AlwaysFinally.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E13_Finally.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E14_OnOffSwitch.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E15_WithFinally.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/MultipleReturns.java" />
@@ -343,6 +344,12 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E04_CustomizableReceipt.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Conversion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E05_ComplexConversion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/DatabaseException.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/BinaryFile.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Hex.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E06_ClassDump.java" />
       </list>
     </option>
   </component>
@@ -413,7 +420,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Angular</id>
+            <id>MalformedFormatString</id>
           </State>
         </selected-state>
       </profile-state>
@@ -469,19 +476,32 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542704978551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542773900520" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vipmro-mall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -518,9 +538,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Receipt">
-    <configuration name="E02_RepairInfinite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.E02_RepairInfinite" />
+  <component name="RunManager" selected="Application.E06_ClassDump">
+    <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Conversion" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -532,8 +552,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Receipt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Receipt" />
+    <configuration name="DatabaseException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.DatabaseException" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -545,8 +565,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.SimpleFormat" />
+    <configuration name="E05_ComplexConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.E05_ComplexConversion" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -558,8 +578,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprinklerSystem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.SprinklerSystem1" />
+    <configuration name="E06_ClassDump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.E06_ClassDump" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -571,8 +591,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Turtle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Turtle" />
+    <configuration name="Hex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Hex" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -585,19 +605,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SprinklerSystem1" />
-      <item itemvalue="Application.E02_RepairInfinite" />
-      <item itemvalue="Application.SimpleFormat" />
-      <item itemvalue="Application.Turtle" />
-      <item itemvalue="Application.Receipt" />
+      <item itemvalue="Application.Conversion" />
+      <item itemvalue="Application.E05_ComplexConversion" />
+      <item itemvalue="Application.DatabaseException" />
+      <item itemvalue="Application.Hex" />
+      <item itemvalue="Application.E06_ClassDump" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Receipt" />
-        <item itemvalue="Application.Turtle" />
-        <item itemvalue="Application.SimpleFormat" />
-        <item itemvalue="Application.E02_RepairInfinite" />
-        <item itemvalue="Application.SprinklerSystem1" />
+        <item itemvalue="Application.E06_ClassDump" />
+        <item itemvalue="Application.Hex" />
+        <item itemvalue="Application.DatabaseException" />
+        <item itemvalue="Application.E05_ComplexConversion" />
+        <item itemvalue="Application.Conversion" />
       </list>
     </recent_temporary>
   </component>
@@ -660,12 +680,15 @@
       <workItem from="1540541308316" duration="3291000" />
       <workItem from="1542543116065" duration="2144000" />
       <workItem from="1542681111730" duration="8860000" />
-      <workItem from="1542698005288" duration="6310000" />
+      <workItem from="1542698005288" duration="7018000" />
+      <workItem from="1542705755900" duration="1743000" />
+      <workItem from="1542760228881" duration="7941000" />
+      <workItem from="1542768200641" duration="3783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188237000" />
+    <option name="totallyTimeSpent" value="202412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,6 +703,45 @@
     <frame x="960" y="0" width="960" height="1080" extended-state="4" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48705882" weight="0.034065936" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24947369" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" weight="0.32967034" />
+      <window_info id="Favorites" order="6" sideWeight="0.5129412" side_tool="true" weight="0.10641711" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.3442623" />
+      <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5153846" side_tool="true" weight="0.5226078" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4846154" weight="0.5226078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3329918" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49427083" weight="0.3322818" />
+      <window_info anchor="bottom" id="Find" order="11" sideWeight="0.49946523" weight="0.44257113" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49926037" weight="0.32889345" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32991803" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" weight="0.32912722" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.99670327" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48705882" weight="0.5835165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24947369" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -689,17 +751,17 @@
       <window_info id="Favorites" order="6" sideWeight="0.5129412" side_tool="true" weight="0.10641711" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.32912722" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" weight="0.32492113" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" weight="0.3540107" />
       <window_info anchor="bottom" id="JRebel Console" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48541668" weight="0.5226078" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3329918" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49427083" weight="0.3329918" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49427083" weight="0.3322818" />
       <window_info anchor="bottom" id="Find" order="11" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -714,46 +776,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.9978022" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48705882" weight="0.2802198" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24947369" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" weight="0.32967034" />
-      <window_info id="Favorites" order="6" sideWeight="0.5129412" side_tool="true" weight="0.10641711" />
-      <window_info id="Image Layers" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.32912722" />
-      <window_info anchor="bottom" id="JRebel Executor" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.32492113" />
-      <window_info anchor="bottom" id="JRebel Console" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48541668" weight="0.5235656" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3329918" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49427083" weight="0.3329918" />
-      <window_info anchor="bottom" id="Find" order="11" sideWeight="0.49946523" weight="0.44257113" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49926037" weight="0.32889345" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32991803" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="17" weight="0.32912722" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.66923076" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" visible="true" weight="0.99670327" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
@@ -805,6 +828,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Hex.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
         <breakpoint suspend="THREAD" type="java-field" />
@@ -829,113 +860,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>throwable</expression-string>
+        <expression-string>String.format(&quot;%02X &quot;, b)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>isLoggerImpl</expression-string>
+        <expression-string>arg</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>isLoggerImplFrame(cname)</expression-string>
+        <expression-string>arg.hashCode()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>frame.getClassName()</expression-string>
+        <expression-string>args[lasto]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>frame</expression-string>
+        <expression-string>args[lasto])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>access.getStackTraceElement(throwable, ix)</expression-string>
+        <expression-string>args</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>throwable.getCause()</expression-string>
+        <expression-string>lasto</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>needToInferCaller</expression-string>
+        <expression-string>l</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>access.getStackTraceDepth(throwable)</expression-string>
+        <expression-string>fsa</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/E30_Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/JavaLangAccess.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/SimpleFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/StreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/ConsoleHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1461" column="6" selection-start-line="1461" selection-start-column="6" selection-end-line="1461" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/jre/lib/rt.jar!/sun/misc/SharedSecrets.class" />
     <entry file="jar://$USER_HOME$/java/jdk/open_jdk1.8.0_192/src.zip!/java/util/logging/LogRecord.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1028,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Immutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1119,9 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,19 +1090,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Formatter.java">
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34219">
-          <caret line="1858" selection-start-line="1858" selection-end-line="1858" />
-          <folding>
-            <element signature="e#0#191191#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E03_TurtleRedirected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1174,49 +1150,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E03_TurtleRedirected.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E04_CustomizableReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="931">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Conversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E05_ComplexConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/DatabaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54226">
+          <caret line="2939" column="23" selection-start-line="2939" selection-start-column="23" selection-end-line="2939" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/access/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#81177#81178#0" expanded="true" />
+            <element signature="e#81261#81262#0" expanded="true" />
+            <element signature="e#101735#101736#0" expanded="true" />
+            <element signature="e#101781#101782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7217" column="8" selection-start-line="7217" selection-start-column="8" selection-end-line="7217" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="407" column="28" selection-start-line="407" selection-start-column="28" selection-end-line="407" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/BinaryFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E06_ClassDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
           </folding>
         </state>
       </provider>
