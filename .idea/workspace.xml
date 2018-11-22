@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E14_SplitDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E15_JGrep2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E16_JGrep3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E17_JCommentExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E18_JStringExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/JGrep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Resetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SplitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/TheReplacements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/BetterRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E20_Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ReplacingStringTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ScannerDelimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ThreadAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
@@ -73,7 +70,7 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="13" />
-          <entry key="java" value="411" />
+          <entry key="java" value="418" />
           <entry key="js" value="1" />
           <entry key="package-list" value="1" />
           <entry key="vmoptions" value="1" />
@@ -85,7 +82,7 @@
           <entry key="CLASS" value="17" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="13" />
-          <entry key="JAVA" value="411" />
+          <entry key="JAVA" value="418" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="7" />
@@ -97,16 +94,16 @@
           <entry key="dummy" value="45" />
           <entry key="ft" value="19" />
           <entry key="gitignore" value="24" />
-          <entry key="java" value="99302" />
+          <entry key="java" value="102495" />
           <entry key="vmoptions" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="99280" />
+          <entry key="JAVA" value="102469" />
           <entry key="PLAIN_TEXT" value="90" />
-          <entry key="RegExp" value="22" />
+          <entry key="RegExp" value="26" />
           <entry key="VTL" value="19" />
         </counts>
       </usages-collector>
@@ -160,54 +157,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/TheReplacements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Resetting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/JGrep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E15_JGrep2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="103" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E16_JGrep3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -231,11 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E18_JStringExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="520">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,36 +193,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/regex/Pattern.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="895" column="28" selection-start-line="895" selection-start-column="28" selection-end-line="895" selection-end-column="28" />
+            <state relative-caret-position="114">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
-                <element signature="e#49482#49483#0" expanded="true" />
-                <element signature="e#49530#49531#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/TextFile.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/BetterRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="209">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E20_Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ScannerDelimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="433" selection-start-line="433" selection-end-line="433" />
+            <state relative-caret-position="285">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ThreadAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ReplacingStringTokenizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="1416" column="18" selection-start-line="1416" selection-start-column="18" selection-end-line="1416" selection-end-column="18" />
+              <folding>
+                <element signature="e#52228#52229#0" expanded="true" />
+                <element signature="e#52286#52287#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -310,12 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/exceptions/LoggingExceptions.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Imutable.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Immutable.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Concatenation.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/WhitherStringBuilder.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/UsingStringBuilder.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SpringklerSystem1.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SprinklerSystem1.java" />
@@ -361,6 +345,12 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E16_JGrep3.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E17_JCommentExtractor.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E18_JStringExtractor.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleRead.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/BetterRead.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E20_Scanner.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ScannerDelimiter.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ThreadAnalyzer.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ReplacingStringTokenizer.java" />
       </list>
     </option>
   </component>
@@ -488,6 +478,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="E20_Scanner.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -499,7 +499,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542872417150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542877919384" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vipmro-mall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -536,9 +536,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E18_JStringExtractor">
-    <configuration name="E15_JGrep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.E15_JGrep2" />
+  <component name="RunManager" selected="Application.ReplacingStringTokenizer">
+    <configuration name="BetterRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.BetterRead" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -550,8 +550,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E16_JGrep3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.E16_JGrep3" />
+    <configuration name="E20_Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.E20_Scanner" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -563,8 +563,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E17_JCommentExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.E17_JCommentExtractor" />
+    <configuration name="ReplacingStringTokenizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ReplacingStringTokenizer" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -576,8 +576,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E18_JStringExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.E18_JStringExtractor" />
+    <configuration name="ScannerDelimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ScannerDelimiter" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -589,8 +589,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JGrep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.JGrep" />
+    <configuration name="ThreadAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ThreadAnalyzer" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -603,19 +603,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JGrep" />
-      <item itemvalue="Application.E15_JGrep2" />
-      <item itemvalue="Application.E16_JGrep3" />
-      <item itemvalue="Application.E17_JCommentExtractor" />
-      <item itemvalue="Application.E18_JStringExtractor" />
+      <item itemvalue="Application.BetterRead" />
+      <item itemvalue="Application.E20_Scanner" />
+      <item itemvalue="Application.ScannerDelimiter" />
+      <item itemvalue="Application.ThreadAnalyzer" />
+      <item itemvalue="Application.ReplacingStringTokenizer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E18_JStringExtractor" />
-        <item itemvalue="Application.E17_JCommentExtractor" />
-        <item itemvalue="Application.E16_JGrep3" />
-        <item itemvalue="Application.E15_JGrep2" />
-        <item itemvalue="Application.JGrep" />
+        <item itemvalue="Application.ReplacingStringTokenizer" />
+        <item itemvalue="Application.ThreadAnalyzer" />
+        <item itemvalue="Application.ScannerDelimiter" />
+        <item itemvalue="Application.E20_Scanner" />
+        <item itemvalue="Application.BetterRead" />
       </list>
     </recent_temporary>
   </component>
@@ -683,12 +683,12 @@
       <workItem from="1542760228881" duration="7941000" />
       <workItem from="1542768200641" duration="12401000" />
       <workItem from="1542784525571" duration="1502000" />
-      <workItem from="1542848583943" duration="17451000" />
+      <workItem from="1542848583943" duration="22744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229983000" />
+    <option name="totallyTimeSpent" value="235276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,9 +715,9 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22131148" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.29713115" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.29713115" />
       <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5161458" side_tool="true" weight="0.5219612" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48385417" weight="0.51946723" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48385417" weight="0.352459" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32889345" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3329918" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -737,7 +737,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.45260417" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.45208332" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -754,9 +754,9 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22131148" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.5532787" />
+      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4956044" visible="true" weight="0.29713115" />
       <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5161458" side_tool="true" weight="0.5219612" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48385417" weight="0.51946723" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.48385417" weight="0.352459" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32889345" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3329918" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -776,7 +776,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.45260417" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" side_tool="true" weight="0.45208332" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
@@ -828,6 +828,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E18_JStringExtractor.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/BetterRead.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
         <breakpoint suspend="THREAD" type="java-field" />
@@ -851,6 +865,26 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>stdin.nextInt()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stdin.nanString</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stdin</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Pattern.compile(CMNT_EXT_REGEX)</expression-string>
         <language-id>JAVA</language-id>
@@ -876,79 +910,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>f.getName()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new File(args[0])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>m</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>m.find()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Turtle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4066">
-          <caret line="241" column="36" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/UsingStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/head_first_java/src/main/java/GameHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E04_CustomizableReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/Conversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1326,11 +1290,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E18_JStringExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="520">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/SimpleRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/BetterRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1416" column="18" selection-start-line="1416" selection-start-column="18" selection-end-line="1416" selection-end-column="18" />
+          <folding>
+            <element signature="e#52228#52229#0" expanded="true" />
+            <element signature="e#52286#52287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/E20_Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ScannerDelimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ThreadAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/strings/ReplacingStringTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
