@@ -1,7 +1,7 @@
 package holding;
 
-import typeinfo.pets.Pet;
-import typeinfo.pets.Pets;
+import typeinfo1.pets.Pet;
+import typeinfo1.pets.Pets;
 
 import java.util.List;
 import java.util.ListIterator;

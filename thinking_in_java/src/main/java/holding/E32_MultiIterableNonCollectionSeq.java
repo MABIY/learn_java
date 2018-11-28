@@ -1,6 +1,6 @@
 package holding;
 
-import typeinfo.pets.Pet;
+import typeinfo1.pets.Pet;
 
 import java.util.*;
 

@@ -1,13 +1,13 @@
 package holding;
 
-import typeinfo.pets.*;
+import typeinfo1.pets.*;
 
 import java.util.*;
 
 import static net.mindview.util.Print.print;
 
-import typeinfo.pets.Hamster;
-import typeinfo.pets.Mouse;
+import typeinfo1.pets.Hamster;
+import typeinfo1.pets.Mouse;
 
 public class ListFeaturese {
     public static void main(String[] args) {

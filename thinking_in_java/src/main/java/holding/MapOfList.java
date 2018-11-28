@@ -1,6 +1,6 @@
 package holding;
 
-import typeinfo.pets.*;
+import typeinfo1.pets.*;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,9 +1,9 @@
 package holding;
 
-import typeinfo.pets.Hamster;
-import typeinfo.pets.Pet;
-import typeinfo.pets.Pets;
-import typeinfo.pets.Rat;
+import typeinfo1.pets.Hamster;
+import typeinfo1.pets.Pet;
+import typeinfo1.pets.Pets;
+import typeinfo1.pets.Rat;
 
 import java.util.LinkedList;
 

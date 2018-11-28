@@ -1,7 +1,7 @@
 package holding;
 
 
-import typeinfo.pets.Pet;
+import typeinfo1.pets.Pet;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

@@ -1,9 +1,9 @@
 package holding;
 
-import typeinfo.pets.Cat;
-import typeinfo.pets.Dog;
-import typeinfo.pets.Hamster;
-import typeinfo.pets.Pet;
+import typeinfo1.pets.Cat;
+import typeinfo1.pets.Dog;
+import typeinfo1.pets.Hamster;
+import typeinfo1.pets.Pet;
 
 import java.util.HashMap;
 import java.util.Map;
