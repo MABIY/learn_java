@@ -7,22 +7,24 @@ import static access.util.Print.print;
  * @create: 2018-11-28 16:58
  **/
 
-class Candy{
+class Candy {
 	static {
-		print("Loading Candy");}
+		print("Loading Candy");
+	}
 }
 
-class Gum{
+class Gum {
 	static {
 		print("Loading Gum");
 	}
 }
 
-class Cookie{
+class Cookie {
 	static {
 		print("loading Cookie");
 	}
 }
+
 public class SweetShop {
 	public static void main(String[] args) {
 		print("inside main");
@@ -34,5 +36,7 @@ public class SweetShop {
 			print("Couldn't find Gum");
 		}
 		print("After Class.forName(\"Gum\")");
+		new Cookie();
+		print("After creating Cookie");
 	}
 }
