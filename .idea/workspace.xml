@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E09_GenericMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E10_GenericMethods3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E11_NewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ExplicitTypeSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LimitsOfInference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SimplerPets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E13_OverloadedFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericVarargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/CountingGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
@@ -54,55 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E09_GenericMethod2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E10_GenericMethods3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/New.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -120,10 +71,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SimplerPets.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="171">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E12_NewTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#572#622#0" expanded="true" />
+                <element signature="e#639#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericVarargs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,24 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LimitsOfInference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E11_NewTest.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E13_OverloadedFill.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,24 +134,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ExplicitTypeSpecification.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#346#364#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/List.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/CountingGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+            <state relative-caret-position="-741" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/control/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -220,11 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E24_RegisteredFactories3.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/packageaccess/HiddenC.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/InterfaceViolation.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/HiddenImplementation.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/InnerImplementation.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/AnonyMouseImplementation.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/AnonymousImplementation.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/ModifyingPrivateFields.java" />
@@ -258,7 +240,6 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Americano.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Breve.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/IterableFibonacci.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E07_IterableFibonacci2.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java" />
@@ -271,6 +252,12 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LimitsOfInference.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E11_NewTest.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ExplicitTypeSpecification.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E12_NewTest2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericVarargs.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/CountingGenerator.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E13_OverloadedFill.java" />
       </list>
     </option>
   </component>
@@ -359,6 +346,36 @@
               <item name="generics" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="mindview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="mindview" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -378,23 +395,24 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="typeinfo" />
-      <recent name="object" />
-      <recent name="object.Rainbow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java" />
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generics.util" />
       <recent name="access.debugoff" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java" />
-      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="typeinfo" />
+      <recent name="object" />
+      <recent name="object.Rainbow" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -414,35 +432,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExplicitTypeSpecification">
-    <configuration name="E09_GenericMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E09_GenericMethod2" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E10_GenericMethods3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E10_GenericMethods3" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E13_OverloadedFill">
     <configuration name="E11_NewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.E11_NewTest" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E13_OverloadedFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.E13_OverloadedFill" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -467,8 +472,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LimitsOfInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.LimitsOfInference" />
+    <configuration name="Generators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Generators" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericVarargs" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -481,19 +499,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E09_GenericMethod2" />
-      <item itemvalue="Application.E10_GenericMethods3" />
-      <item itemvalue="Application.LimitsOfInference" />
       <item itemvalue="Application.E11_NewTest" />
       <item itemvalue="Application.ExplicitTypeSpecification" />
+      <item itemvalue="Application.GenericVarargs" />
+      <item itemvalue="Application.Generators" />
+      <item itemvalue="Application.E13_OverloadedFill" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E13_OverloadedFill" />
+        <item itemvalue="Application.Generators" />
+        <item itemvalue="Application.GenericVarargs" />
         <item itemvalue="Application.ExplicitTypeSpecification" />
         <item itemvalue="Application.E11_NewTest" />
-        <item itemvalue="Application.LimitsOfInference" />
-        <item itemvalue="Application.E10_GenericMethods3" />
-        <item itemvalue="Application.E09_GenericMethod2" />
       </list>
     </recent_temporary>
   </component>
@@ -579,12 +597,12 @@
       <workItem from="1543910748263" duration="885000" />
       <workItem from="1543912075100" duration="16000" />
       <workItem from="1543969959830" duration="4647000" />
-      <workItem from="1543986689286" duration="2443000" />
+      <workItem from="1543986689286" duration="6107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339782000" />
+    <option name="totallyTimeSpent" value="343446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,50 +615,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1080" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
-      <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" weight="0.32967034" />
-      <window_info id="Favorites" order="6" sideWeight="0.515015" side_tool="true" weight="0.2839572" />
-      <window_info id="Image Layers" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.49270833" weight="0.29989764" />
-      <window_info anchor="bottom" id="JRebel Executor" order="4" />
-      <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6366428" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072917" side_tool="true" weight="0.3971341" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49166667" weight="0.3306039" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49926037" weight="0.3285568" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32991803" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="17" weight="0.32912722" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="19" weight="0.32983193" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989011" weight="0.24973261" />
-      <window_info anchor="right" id="Database" order="2" weight="0.328877" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" weight="0.9604167" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
-    </layout>
-    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
       <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -672,7 +647,49 @@
       <window_info anchor="bottom" id="CheckStyle" order="19" weight="0.32983193" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989011" weight="0.24973261" />
-      <window_info anchor="right" id="Database" order="2" weight="0.328877" />
+      <window_info anchor="right" id="Database" order="2" weight="0.328125" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" weight="0.9604167" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
+      <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" weight="0.32967034" />
+      <window_info id="Favorites" order="6" sideWeight="0.515015" side_tool="true" weight="0.2839572" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.49270833" weight="0.29989764" />
+      <window_info anchor="bottom" id="JRebel Executor" order="4" />
+      <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6366428" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072917" side_tool="true" weight="0.3971341" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49166667" weight="0.3306039" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49926037" weight="0.3285568" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32991803" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" weight="0.32912722" />
+      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="19" weight="0.32983193" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989011" weight="0.24973261" />
+      <window_info active="true" anchor="right" id="Database" order="2" visible="true" weight="0.328125" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
@@ -857,80 +874,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E25_HiddenMethodCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E26_ClearSpitValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57722">
-          <caret line="3143" column="6" selection-start-line="3143" selection-start-column="6" selection-end-line="3143" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/reflect/Modifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4579">
-          <caret line="290" column="50" selection-start-line="290" selection-start-column="50" selection-end-line="290" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2679">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-          <folding>
-            <element signature="e#5762#5763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Boolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1154,20 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E06_RandomListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1244,16 +1173,6 @@
             <element signature="e#1106#1107#0" expanded="true" />
             <element signature="e#1160#1161#0" expanded="true" />
             <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1346,25 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/New.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1396,12 +1296,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LimitsOfInference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="399">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E12_NewTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#622#0" expanded="true" />
+            <element signature="e#639#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericVarargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/control/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/CountingGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E13_OverloadedFill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
