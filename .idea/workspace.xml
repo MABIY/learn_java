@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E07_IterableFibonacci2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/IterableFibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java" afterDir="false" />
     </list>
@@ -47,61 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E06_RandomListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Coffee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding>
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Latte.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Mocha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Cappuccino.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -124,17 +77,103 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="456">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/IterableFibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E07_IterableFibonacci2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1651#1652#0" expanded="true" />
+                <element signature="e#1802#1803#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1941#1942#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+              <folding>
+                <element signature="e#2561#2562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +215,7 @@
       <find>a</find>
       <find>File.separator</find>
       <find>1</find>
+      <find>fixme</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -188,10 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E21_SimpleProxyDemo.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E22_SimpleDynamicProxyDemo.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E23_SimpleDynamicProxyDemo2.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/Null.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/util/Null.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/Person.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/Position.java" />
@@ -239,6 +275,10 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Americano.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Breve.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/IterableFibonacci.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E07_IterableFibonacci2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java" />
       </list>
     </option>
   </component>
@@ -272,7 +312,66 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
+              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
@@ -323,13 +422,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E06_RandomListTest">
-    <configuration name="E04_GenericSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E04_GenericSequence" />
+  <component name="RunManager" selected="Application.E08_CharacterGenerator">
+    <configuration name="CoffeeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.coffee.CoffeeGenerator" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="generics.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E05_LinkedStack2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E05_LinkedStack2" />
+    <configuration name="E07_IterableFibonacci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.coffee.E07_IterableFibonacci2" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="generics.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,12 +449,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E06_RandomListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E06_RandomListTest" />
+    <configuration name="E08_CharacterGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.coffee.E08_CharacterGenerator" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="generics.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +462,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.LinkedStack" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.coffee.Fibonacci" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="generics.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.RandomList" />
+    <configuration name="IterableFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.coffee.IterableFibonacci" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="generics.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +489,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E04_GenericSequence" />
-      <item itemvalue="Application.LinkedStack" />
-      <item itemvalue="Application.E05_LinkedStack2" />
-      <item itemvalue="Application.RandomList" />
-      <item itemvalue="Application.E06_RandomListTest" />
+      <item itemvalue="Application.CoffeeGenerator" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.IterableFibonacci" />
+      <item itemvalue="Application.E07_IterableFibonacci2" />
+      <item itemvalue="Application.E08_CharacterGenerator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E06_RandomListTest" />
-        <item itemvalue="Application.RandomList" />
-        <item itemvalue="Application.E05_LinkedStack2" />
-        <item itemvalue="Application.LinkedStack" />
-        <item itemvalue="Application.E04_GenericSequence" />
+        <item itemvalue="Application.E08_CharacterGenerator" />
+        <item itemvalue="Application.E07_IterableFibonacci2" />
+        <item itemvalue="Application.IterableFibonacci" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.CoffeeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +584,14 @@
       <workItem from="1543900515109" duration="8726000" />
       <workItem from="1543909373828" duration="460000" />
       <workItem from="1543909988339" duration="234000" />
-      <workItem from="1543910748263" duration="842000" />
+      <workItem from="1543910748263" duration="885000" />
+      <workItem from="1543912075100" duration="16000" />
+      <workItem from="1543969959830" duration="4526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332633000" />
+    <option name="totallyTimeSpent" value="337218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,6 +604,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
       <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
@@ -520,7 +622,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6356192" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6366428" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072917" side_tool="true" weight="0.3971341" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="10" />
@@ -545,6 +647,48 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
+      <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" weight="0.32967034" />
+      <window_info id="Favorites" order="6" sideWeight="0.515015" side_tool="true" weight="0.2839572" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
+      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.49270833" visible="true" weight="0.29989764" />
+      <window_info anchor="bottom" id="JRebel Executor" order="4" />
+      <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6366428" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5072917" side_tool="true" weight="0.3971341" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49166667" weight="0.3306039" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49926037" weight="0.3285568" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32991803" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" weight="0.32912722" />
+      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="19" weight="0.32983193" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989011" weight="0.24973261" />
+      <window_info anchor="right" id="Database" order="2" weight="0.328877" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328877" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" weight="0.9604167" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -720,90 +864,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/NullRobot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/factory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/E24_RegisteredFactories3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2282#2283#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2646#2647#0" expanded="true" />
-            <element signature="e#2682#2683#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/packageaccess/HiddenC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/InterfaceViolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/typeinfo/HiddenImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1227,13 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1288,14 +1341,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/CoffeeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="456">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/IterableFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E07_IterableFibonacci2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/E08_CharacterGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1941#1942#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
           </folding>
         </state>
       </provider>
