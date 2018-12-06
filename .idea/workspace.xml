@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/BankTeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E18_OceanLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E19_CargoShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/ContainerMethodDifferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/ContainerMethodDifferences.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,27 +49,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/watercolors/Watercolors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/WatercolorSets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/ContainerMethodDifferences.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -101,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E18_OceanLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="749">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
@@ -124,10 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="361">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,19 +115,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3534">
-              <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+            <state relative-caret-position="456">
+              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E19_CargoShip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/javax/management/ImmutableDescriptor.java">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3629">
-              <caret line="225" column="38" selection-start-line="225" selection-start-column="38" selection-end-line="225" selection-end-column="38" />
+            <state relative-caret-position="437">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,9 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/FiveTuple.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleTest.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E03_SixTuple.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E04_GenericSequence.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LinkedStack.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E05_LinkedStack2.java" />
@@ -266,6 +282,9 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/ContainerMethodDifferences.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/BankTeller.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E18_OceanLife.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleList.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E19_CargoShip.java" />
       </list>
     </option>
   </component>
@@ -363,7 +382,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -401,39 +420,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E18_OceanLife">
+  <component name="RunManager" selected="Application.E19_CargoShip">
     <configuration name="BankTeller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.BankTeller" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerMethodDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.util.ContainerMethodDifferences" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E17_Set2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.util.E17_Set2" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,8 +447,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WatercolorSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.WatercolorSets" />
+    <configuration name="E19_CargoShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.E19_CargoShip" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Store" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TupleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.TupleList" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -468,19 +487,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WatercolorSets" />
-      <item itemvalue="Application.ContainerMethodDifferences" />
-      <item itemvalue="Application.E17_Set2" />
       <item itemvalue="Application.BankTeller" />
       <item itemvalue="Application.E18_OceanLife" />
+      <item itemvalue="Application.TupleList" />
+      <item itemvalue="Application.Store" />
+      <item itemvalue="Application.E19_CargoShip" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E19_CargoShip" />
+        <item itemvalue="Application.Store" />
+        <item itemvalue="Application.TupleList" />
         <item itemvalue="Application.E18_OceanLife" />
         <item itemvalue="Application.BankTeller" />
-        <item itemvalue="Application.E17_Set2" />
-        <item itemvalue="Application.ContainerMethodDifferences" />
-        <item itemvalue="Application.WatercolorSets" />
       </list>
     </recent_temporary>
   </component>
@@ -570,12 +589,12 @@
       <workItem from="1544057249770" duration="435000" />
       <workItem from="1544058936363" duration="123000" />
       <workItem from="1544059083967" duration="72000" />
-      <workItem from="1544081706048" duration="1461000" />
+      <workItem from="1544081706048" duration="4648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354771000" />
+    <option name="totallyTimeSpent" value="357958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,6 +607,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
       <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
@@ -601,7 +621,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" visible="true" weight="0.29989764" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" visible="true" weight="0.29989764" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
@@ -643,7 +663,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" visible="true" weight="0.29989764" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" weight="0.29989764" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
@@ -667,7 +687,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" weight="0.9604167" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" visible="true" weight="0.9604167" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
@@ -847,35 +867,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SimplerPets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ExplicitTypeSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#346#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E11_NewTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1047,16 +1038,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/tt.java" />
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E14_BasicGeneratorDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1308,16 +1289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/BankTeller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1338,8 +1309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E18_OceanLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        <state relative-caret-position="749">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
@@ -1352,6 +1323,66 @@
             <element signature="e#904#905#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
             <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Generators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E19_CargoShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
           </folding>
         </state>
       </provider>
