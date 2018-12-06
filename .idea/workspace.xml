@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ErasedTypeEquivalence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/HasF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LostInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Mainpulator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Manipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGenericType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
@@ -126,11 +122,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Mainpulator2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Manipulator2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGenericType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -143,18 +154,6 @@
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/TupleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,10 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E06_RandomListTest.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/Generator.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Coffee.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Latte.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Mocha.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Cappuccion.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/coffee/Cappuccino.java" />
@@ -267,6 +262,10 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/LostInformation.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/HasF.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Manipulation.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Mainpulator2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Manipulator2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGBenericType.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGenericType.java" />
       </list>
     </option>
   </component>
@@ -288,7 +287,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
@@ -571,12 +570,12 @@
       <workItem from="1544057249770" duration="435000" />
       <workItem from="1544058936363" duration="123000" />
       <workItem from="1544059083967" duration="72000" />
-      <workItem from="1544081706048" duration="6223000" />
+      <workItem from="1544081706048" duration="7161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359533000" />
+    <option name="totallyTimeSpent" value="360471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,7 +587,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <frame x="960" y="0" width="960" height="1080" extended-state="5" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
       <window_info id="Structure" order="1" sideWeight="0.50989014" side_tool="true" weight="0.49465242" />
@@ -602,11 +602,11 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" visible="true" weight="0.29989764" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" weight="0.29989764" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6366428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" visible="true" weight="0.52507675" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5104167" side_tool="true" weight="0.3306039" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="10" />
@@ -806,13 +806,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/control/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1307,10 +1300,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Mainpulator2.java">
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Manipulator2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="171">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGenericType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
