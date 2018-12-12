@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/BasicBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ByteSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/CaptureConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/CompilerIntelligence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E25_Bounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E28_GenericReadAndWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E29_WildcardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E30_AutoboxingUnboxingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/EpicBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericWriting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InheritBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ListOfInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/PrimitiveGenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SuperTypeWildcards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/UnboundedWildcards1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/UnboundedWildcards2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Wildcards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E31_MultipleInterfaceVariants2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/MultipleInterfaceVariants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,60 +48,11 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/CaptureConversion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E29_WildcardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ListOfInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ByteSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/PrimitiveGenericTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
+            <state relative-caret-position="722">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,11 +61,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E30_AutoboxingUnboxingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="665">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/MultipleInterfaceVariants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E31_MultipleInterfaceVariants2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericCast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,15 +142,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="779">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/initialization/ArraysOfPrimitives.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -173,6 +155,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -212,12 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGBenericType.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ReturnGenericType.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E20_Bounds.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ErasureAndInheritance.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ArrayMaker.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ListMaker.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/FilledListMaker.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SimpleHolder.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericHolder.java" />
@@ -225,7 +202,6 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ClassTypeCapture.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E21_ClassTypeCapture2.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java" />
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/FactroyConstraint.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/FactoryConstraint.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/CreatorGeneric.java" />
@@ -263,6 +239,13 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ByteSet.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/PrimitiveGenericTest.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E30_AutoboxingUnboxingTest.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/MultipleInterfaceVariants.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Test.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Tt.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Houyrly.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E31_MultipleInterfaceVariants2.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericCast.java" />
       </list>
     </option>
   </component>
@@ -284,10 +267,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="426" />
+    <option name="y" value="226" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -296,70 +280,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinking_in_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
@@ -377,22 +298,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="typeinfo" />
-      <recent name="object" />
-      <recent name="object.Rainbow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java" />
+      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java/generics" />
       <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generics.test" />
       <recent name="generics.util" />
       <recent name="access.debugoff" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/thinking_in_java/src/main/java" />
-      <recent name="$PROJECT_DIR$/thinking_in_java/src/main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="typeinfo" />
+      <recent name="object" />
+      <recent name="object.Rainbow" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -412,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E30_AutoboxingUnboxingTest">
+  <component name="RunManager" selected="Application.GenericCast">
     <configuration name="CaptureConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.CaptureConversion" />
       <module name="thinking_in_java" />
@@ -452,6 +374,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericCast" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListOfInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.ListOfInt" />
       <module name="thinking_in_java" />
@@ -465,33 +400,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wildcards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Wildcards" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Wildcards" />
       <item itemvalue="Application.CaptureConversion" />
       <item itemvalue="Application.E29_WildcardTest" />
       <item itemvalue="Application.ListOfInt" />
       <item itemvalue="Application.E30_AutoboxingUnboxingTest" />
+      <item itemvalue="Application.GenericCast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericCast" />
         <item itemvalue="Application.E30_AutoboxingUnboxingTest" />
         <item itemvalue="Application.ListOfInt" />
         <item itemvalue="Application.E29_WildcardTest" />
         <item itemvalue="Application.CaptureConversion" />
-        <item itemvalue="Application.Wildcards" />
       </list>
     </recent_temporary>
   </component>
@@ -584,11 +506,12 @@
       <workItem from="1544081706048" duration="7161000" />
       <workItem from="1544349847153" duration="7530000" />
       <workItem from="1544535060097" duration="2301000" />
+      <workItem from="1544608500185" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392850000" />
+    <option name="totallyTimeSpent" value="396260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +523,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.484985" weight="0.28333333" />
@@ -615,7 +538,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" visible="true" weight="0.2917093" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.4921875" weight="0.2917093" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
@@ -861,105 +784,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ListMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/FilledListMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/SimpleHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/ClassTypeCapture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E21_ClassTypeCapture2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/CreatorGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1450,17 +1274,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Tt.java" />
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/test/Houyrly.java" />
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/PrimitiveGenericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E30_AutoboxingUnboxingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/MultipleInterfaceVariants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E31_MultipleInterfaceVariants2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/InstantiateGenericType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/util/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1471,20 +1339,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/PrimitiveGenericTest.java">
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/net/mindview/util/CountingGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="779">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/E30_AutoboxingUnboxingTest.java">
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/generics/GenericCast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
