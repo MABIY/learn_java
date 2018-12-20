@@ -2,6 +2,7 @@ package generics;
 
 import typeinfo1.pets.Individual;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -72,6 +73,15 @@ class SManx extends SCat{
 	}
 }
 
+class SMouse extends SDog {
+	public SMouse(String name) {
+		super(name);
+	}
+	
+	public SMouse() {
+	}
+}
+
 class SHamster extends SRodent {
 	public SHamster(String name) {
 		super(name);
@@ -116,7 +126,10 @@ class SDog extends SPet{
 	}
 }
 public class E40_SpeakingPets {
-	public static void main(String[] args) {
-		List<SPet>
+	public static void main(String[] args) throws NoSuchMethodException {
+		List<SPet> pets = Arrays.asList(new SRat(), new SPug(), new SMutt(),
+				new SMouse(), new SManx(),
+				new SHamster(),new SEgyptianMau(),new SCymric());
+		Apply.apply(pets,SPet.class.getMethod("speak"));
 	}
 }
