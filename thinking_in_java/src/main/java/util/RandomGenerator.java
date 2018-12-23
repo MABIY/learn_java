@@ -12,6 +12,10 @@ import java.util.Random;
 public class RandomGenerator {
 	private static Random r = new Random(47);
 	
+	public static void main(String[] args) {
+		System.out.println(r.nextFloat());
+	}
+	
 	public static class Boolean implements Generator<java.lang.Boolean> {
 		@Override
 		public java.lang.Boolean next() {
@@ -33,7 +37,7 @@ public class RandomGenerator {
 		}
 	}
 	
-	public static class String extends CountingGenerator.String{
+	public static class String extends CountingGenerator.String {
 		{
 			cg = new Character();
 		}
@@ -46,7 +50,7 @@ public class RandomGenerator {
 		}
 	}
 	
-	public static class Integer implements Generator<java.lang.Integer>{
+	public static class Integer implements Generator<java.lang.Integer> {
 		private int mod = 10000;
 		
 		public Integer() {
@@ -74,11 +78,11 @@ public class RandomGenerator {
 		
 		@Override
 		public java.lang.Long next() {
-			return (long)r.nextInt(mod);
+			return (long) r.nextInt(mod);
 		}
 	}
 	
-	public static class Float implements Generator<java.lang.Float>{
+	public static class Float implements Generator<java.lang.Float> {
 		@Override
 		public java.lang.Float next() {
 			// Trim all but the first two decimal places:
@@ -87,7 +91,11 @@ public class RandomGenerator {
 		}
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(r.nextFloat());
+	public static class Double implements Generator<java.lang.Double> {
+		@Override
+		public java.lang.Double next() {
+			long trimmed = Math.round(r.nextDouble() * 100);
+			return ((double) trimmed) / 100;
+		}
 	}
 }
