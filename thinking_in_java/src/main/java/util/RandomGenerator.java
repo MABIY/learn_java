@@ -82,6 +82,13 @@ public class RandomGenerator {
 		}
 	}
 	
+	
+	public static class Short implements Generator<java.lang.Short> {
+		@Override
+		public java.lang.Short next() {
+			return (short) r.nextInt();
+		}
+	}
 	public static class Float implements Generator<java.lang.Float> {
 		@Override
 		public java.lang.Float next() {
