@@ -1,7 +1,6 @@
 package arrays;
 
 import generics.util.Generator;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -24,7 +23,7 @@ public class CompType implements Comparable<CompType> {
 	}
 	
 	@Override
-	public int compareTo(@NotNull CompType o) {
+	public int compareTo(CompType o) {
 		return (i < o.i ? -1 : (i == o.i ? 0 : 1));
 	}
 	

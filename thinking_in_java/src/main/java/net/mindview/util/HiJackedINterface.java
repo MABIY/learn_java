@@ -1,6 +1,5 @@
 package net.mindview.util;
 
-import org.jetbrains.annotations.NotNull;
 
 /**
  * @author: liuHua
