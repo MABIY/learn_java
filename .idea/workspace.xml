@@ -10,11 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/CollectionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E06_UnsupportedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Unsupported.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
@@ -91,14 +87,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="329">
+              <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/ListIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -182,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/PrimitiveConversionDemonstration.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/util/RandomGenerator.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/TestArrayGeneration.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E11_AutoboxingWithArrays.java" />
@@ -233,6 +249,7 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Unsupported.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E06_UnsupportedList.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java" />
       </list>
     </option>
   </component>
@@ -254,7 +271,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
@@ -330,7 +347,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546764460022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546765091915" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vipmro-mall-ka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
@@ -383,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lists">
+  <component name="RunManager" selected="Application.E07_CrossInsertion">
     <configuration name="CollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="containers.CollectionMethods" />
       <module name="thinking_in_java" />
@@ -397,8 +414,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E05_CountingMapData2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.E05_CountingMapData2" />
+    <configuration name="E06_UnsupportedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.E06_UnsupportedList" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -410,8 +427,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E06_UnsupportedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.E06_UnsupportedList" />
+    <configuration name="E07_CrossInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.E07_CrossInsertion" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -450,19 +467,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E05_CountingMapData2" />
       <item itemvalue="Application.CollectionMethods" />
       <item itemvalue="Application.Unsupported" />
       <item itemvalue="Application.E06_UnsupportedList" />
       <item itemvalue="Application.Lists" />
+      <item itemvalue="Application.E07_CrossInsertion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E07_CrossInsertion" />
         <item itemvalue="Application.Lists" />
         <item itemvalue="Application.E06_UnsupportedList" />
         <item itemvalue="Application.Unsupported" />
         <item itemvalue="Application.CollectionMethods" />
-        <item itemvalue="Application.E05_CountingMapData2" />
       </list>
     </recent_temporary>
   </component>
@@ -568,12 +585,12 @@
       <workItem from="1545993642672" duration="4621000" />
       <workItem from="1546325964951" duration="8317000" />
       <workItem from="1546757842211" duration="1000" />
-      <workItem from="1546757850983" duration="6499000" />
+      <workItem from="1546757850983" duration="7179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502709000" />
+    <option name="totallyTimeSpent" value="503389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +602,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47740963" weight="0.39468086" />
       <window_info id="Structure" order="1" sideWeight="0.52259034" side_tool="true" weight="0.28645834" />
@@ -599,11 +617,11 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" visible="true" weight="0.32036847" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" weight="0.39918116" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6316326" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.28045034" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51382977" side_tool="true" weight="0.327551" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="10" />
@@ -641,11 +659,11 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" weight="0.32036847" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" weight="0.39918116" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" weight="0.6316326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48385417" visible="true" weight="0.28045034" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51382977" side_tool="true" weight="0.327551" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="10" />
@@ -736,6 +754,12 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -769,6 +793,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ll</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>it.n</expression-string>
         <language-id>JAVA</language-id>
@@ -809,27 +838,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>((LinkedList.ListItr) it).nextIndex</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.LinkedList</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>b</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E25_PythonLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1264,13 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1298,10 +1302,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state relative-caret-position="329">
+          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
