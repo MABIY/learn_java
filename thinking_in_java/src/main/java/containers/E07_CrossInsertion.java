@@ -2,10 +2,7 @@ package containers;
 
 import util.Countries;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.*;
 
 import static access.util.Print.print;
 
@@ -33,7 +30,14 @@ public class E07_CrossInsertion {
 			al.add(alindex, lit2.next());
 			alindex += 2;
 		}
-		print("al = "+ al);
 		
+		print("a1 = " + al);
+		print("****");
+		alindex = 0;
+		for (ListIterator<String> lit2 = ll.listIterator(ll.size()); lit2.hasPrevious();) {
+			al.add(alindex, lit2.previous());
+			alindex += 2;
+		}
+		print("al = " + al);
 	}
 }
