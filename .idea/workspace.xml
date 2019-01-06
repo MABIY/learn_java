@@ -5,12 +5,12 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/thinking_in_java/src/main/java/util/CountingGenerator.java" line="101" />
-    <bookmark url="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java" line="234" mnemonic="T" />
     <bookmark url="file://$PROJECT_DIR$/thinking_in_java/src/main/java/util/CountingMapData.java" line="64" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E08_SList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,30 +51,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/CollectionMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Unsupported.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E06_UnsupportedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="569">
@@ -98,13 +74,95 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="407">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E08_SList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="e#1841#1842#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/access/util/Print.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="820" selection-start-line="820" selection-end-line="820" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="234" column="3" lean-forward="true" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+              <folding>
+                <element signature="e#5748#5749#0" expanded="true" />
+                <element signature="e#5784#5785#0" expanded="true" />
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="e#2496#2497#0" expanded="true" />
+                <element signature="e#2561#2562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/NoSuchMethodException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+              <folding>
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,34 +173,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
               <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/UnsupportedOperationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#2616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/util/Countries.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7630#7756#0" expanded="true" />
-                <element signature="e#7755#7756#0" expanded="true" />
-                <element signature="e#8187#8188#0" expanded="true" />
-                <element signature="e#8239#8240#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/util/RandomGenerator.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/TestArrayGeneration.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E11_AutoboxingWithArrays.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E12_GeneratedDArray.java" />
@@ -249,6 +278,7 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E06_UnsupportedList.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/Lists.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E08_SList.java" />
       </list>
     </option>
   </component>
@@ -270,7 +300,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
@@ -346,7 +376,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546765272119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546770484342" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vipmro-mall-ka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
@@ -399,20 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E07_CrossInsertion">
-    <configuration name="CollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.CollectionMethods" />
-      <module name="thinking_in_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="containers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E08_SList">
     <configuration name="E06_UnsupportedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="containers.E06_UnsupportedList" />
       <module name="thinking_in_java" />
@@ -428,6 +445,19 @@
     </configuration>
     <configuration name="E07_CrossInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="containers.E07_CrossInsertion" />
+      <module name="thinking_in_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E08_SList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.E08_SList" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -466,19 +496,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionMethods" />
       <item itemvalue="Application.Unsupported" />
       <item itemvalue="Application.E06_UnsupportedList" />
       <item itemvalue="Application.Lists" />
       <item itemvalue="Application.E07_CrossInsertion" />
+      <item itemvalue="Application.E08_SList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E08_SList" />
         <item itemvalue="Application.E07_CrossInsertion" />
         <item itemvalue="Application.Lists" />
         <item itemvalue="Application.E06_UnsupportedList" />
         <item itemvalue="Application.Unsupported" />
-        <item itemvalue="Application.CollectionMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -584,12 +614,12 @@
       <workItem from="1545993642672" duration="4621000" />
       <workItem from="1546325964951" duration="8317000" />
       <workItem from="1546757842211" duration="1000" />
-      <workItem from="1546757850983" duration="7556000" />
+      <workItem from="1546757850983" duration="11960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503766000" />
+    <option name="totallyTimeSpent" value="508170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,7 +631,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47740963" weight="0.39468086" />
@@ -616,7 +646,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" visible="true" weight="0.39918116" />
+      <window_info active="true" anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" visible="true" weight="0.33776867" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
@@ -658,7 +688,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.3280757" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946523" weight="0.44257113" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200614" />
-      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" weight="0.39918116" />
+      <window_info anchor="bottom" x="0" y="347" width="1920" height="391" id="Debug" order="3" sideWeight="0.48829788" weight="0.4268168" />
       <window_info anchor="bottom" id="JRebel Executor" order="4" />
       <window_info anchor="bottom" id="JRebel Console" order="5" sideWeight="0.5161458" side_tool="true" weight="0.5215164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285568" />
@@ -682,7 +712,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" visible="true" weight="0.96770835" />
+      <window_info anchor="right" x="0" y="0" width="190" height="880" id="Documentation" order="7" sideWeight="0.50109893" side_tool="true" weight="0.96770835" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32994652" />
@@ -759,6 +789,12 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E08_SList.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -793,6 +829,31 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>slit.hasNext()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>slit</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>header</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sl</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>ll</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -812,74 +873,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>it.add(&quot;100&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>it.remove();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>it.add(&quot;99&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>it.add(&quot;88&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>it.remove()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E25_PythonLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#6346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/util/Collection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#1441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Iterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/jre/lib/rt.jar!/java/awt/List.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -979,17 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-          <folding>
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/util/RandomGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1071,19 +1056,6 @@
           <folding>
             <element signature="e#6162#6163#0" expanded="true" />
             <element signature="e#6199#6200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,10 +1292,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E07_CrossInsertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="407">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/NoSuchMethodException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="234" column="3" lean-forward="true" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/access/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="820" selection-start-line="820" selection-end-line="820" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E08_SList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
           </folding>
         </state>
       </provider>
