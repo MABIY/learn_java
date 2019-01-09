@@ -9,8 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f31ffd-1877-47b9-b2f5-33556cfbdeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/QueueBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E11_PriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thinking_in_java/target/" />
@@ -92,16 +91,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#762#763#0" expanded="true" />
                 <element signature="e#831#832#0" expanded="true" />
                 <element signature="e#909#910#0" expanded="true" />
                 <element signature="e#945#946#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E11_PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,15 +131,6 @@
                 <element signature="e#6812#6813#0" expanded="true" />
                 <element signature="e#6849#6850#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9633">
-              <caret line="530" column="8" selection-start-line="530" selection-start-column="8" selection-end-line="530" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -238,7 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E13_StringFill.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/Fill.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E14_PrimitiveArraysFill.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/arrays/E15_BSContainerComparison.java" />
@@ -289,6 +294,7 @@
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/TypesForSets.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/QueueBehavior.java" />
         <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/ToDoList.java" />
+        <option value="$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E11_PriorityQueue.java" />
       </list>
     </option>
   </component>
@@ -387,7 +393,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/access/util/Print.java&#10;/deco&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/generics1/decorator&#10;/E16_SkipGenerator&#9;FILE&#9;file:///home/lh/project/learn_java/thinking_in_java/src/main/java/arrays/E16_SkipGenerator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547020901714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547021373593" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vipmro-mall-ka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
@@ -440,9 +446,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToDoList">
-    <configuration name="E07_CrossInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.E07_CrossInsertion" />
+  <component name="RunManager" selected="Application.E11_PriorityQueue">
+    <configuration name="E08_SList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.E08_SList" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -454,8 +460,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E08_SList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.E08_SList" />
+    <configuration name="E11_PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.E11_PriorityQueue" />
       <module name="thinking_in_java" />
       <extension name="coverage">
         <pattern>
@@ -507,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E07_CrossInsertion" />
       <item itemvalue="Application.E08_SList" />
       <item itemvalue="Application.TypesForSets" />
       <item itemvalue="Application.QueueBehavior" />
       <item itemvalue="Application.ToDoList" />
+      <item itemvalue="Application.E11_PriorityQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E11_PriorityQueue" />
         <item itemvalue="Application.ToDoList" />
         <item itemvalue="Application.QueueBehavior" />
         <item itemvalue="Application.TypesForSets" />
         <item itemvalue="Application.E08_SList" />
-        <item itemvalue="Application.E07_CrossInsertion" />
       </list>
     </recent_temporary>
   </component>
@@ -629,12 +635,12 @@
       <workItem from="1546945537449" duration="17000" />
       <workItem from="1546945666837" duration="43000" />
       <workItem from="1547011425586" duration="942000" />
-      <workItem from="1547013193630" duration="7394000" />
+      <workItem from="1547013193630" duration="7920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="522481000" />
+    <option name="totallyTimeSpent" value="523007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,13 +927,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java/jdk/jdk1.8.0_151/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1472,13 +1471,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#762#763#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
             <element signature="e#909#910#0" expanded="true" />
             <element signature="e#945#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinking_in_java/src/main/java/containers/E11_PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
