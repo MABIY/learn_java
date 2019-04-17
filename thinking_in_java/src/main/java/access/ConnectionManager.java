@@ -53,13 +53,13 @@ public class ConnectionManager {
 
     public static void main(String[] args) {
         ConnectionManager cm = new ConnectionManager();
-        System.out.println(cm.howMayLeft);
-        cm.getConnection();
         System.out.println(howMayLeft);
-        cm.getConnection();
+        getConnection();
         System.out.println(howMayLeft);
-        cm.getConnection();
-        System.out.println(cm.getConnection());
+        getConnection();
+        System.out.println(howMayLeft);
+        getConnection();
+        System.out.println(getConnection());
         System.out.println(howMayLeft);
     }
 }
