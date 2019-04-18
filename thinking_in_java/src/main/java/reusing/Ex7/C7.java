@@ -4,12 +4,6 @@ import org.eclipse.swt.internal.C;
 
 import static net.mindview.util.Print.print;
 
-/**
- * @author lh
- * Modify Exercise 5 so that A and B have constructors with arguments instead
- * of default construcotrs. Write a constructor for C and perform all
- *  initializaton within C's constructor
- **/
 class A{
     public A(char c, int i) {
         print("A(char,int)");
