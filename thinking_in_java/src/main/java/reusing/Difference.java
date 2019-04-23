@@ -1,0 +1,46 @@
+package reusing;
+
+
+import java.util.Random;
+
+import static net.mindview.util.Print.print;
+
+/**
+ * @author lh
+ * Create a class with a static final field and a final field and demonstrate
+ * the difference between the two
+ **/
+class Test{
+    public Test() {
+        print("Test()");
+    }
+}
+public class Difference {
+    private String name;
+
+    public Difference(String name) {
+        this.name = name;
+    }
+
+    static final Test sft = new Test(); // constant reference address
+    private final Test ft = new Test();
+    static final String SFS = "static final"; //class constant
+    private final String fs = "final";
+    private static Random rand = new Random();
+    static final int sfi = rand.nextInt(); //class constant
+    private final int fi = rand.nextInt();
+
+    @Override
+    public String toString() {
+        return (name + ": " + sft + ", " + ft + ", " + SFS + ", " + fs);
+    }
+
+    public static void main(String[] args) {
+        Difference d1 = new Difference("d1");
+        Difference d2 = new Difference("d2");
+        Difference d3 = new Difference("d3");
+        print(d1);
+        print(d2);
+        print(d3);
+    }
+}
