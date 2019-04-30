@@ -1,7 +1,6 @@
 package interfaces.rodent;
 
 
-
 import static net.mindview.util.Print.print;
 
 /**
@@ -10,34 +9,34 @@ import static net.mindview.util.Print.print;
  * Make the methods of Rodnet abstract whenever possible.
  **/
 
-abstract class Rodent{
-    private String name = "Rodent";
+interface Rodent {
+    String name = "Rodent";
 
-    abstract protected void eat();
+    void eat();
 
-    abstract protected void run();
+    void run();
 
-    abstract protected void sleep();
+    void sleep();
 
     @Override
-    abstract public String toString();
+    String toString();
 }
 
-class Mouse extends Rodent{
+class Mouse implements Rodent {
     private String name = "Mouse";
 
     @Override
-    protected void eat() {
+    public void eat() {
         print("mouse.eat()");
     }
 
     @Override
-    protected void run() {
+    public void run() {
         print("Moouse.run()");
     }
 
     @Override
-    protected void sleep() {
+    public void sleep() {
         print("Mouse.sleep()");
     }
 
@@ -47,20 +46,21 @@ class Mouse extends Rodent{
     }
 }
 
-class Rat extends Rodent {
+class Rat implements Rodent {
     private String name = "Rat";
+
     @Override
-    protected void eat() {
+    public void eat() {
         print("Rat.eat()");
     }
 
     @Override
-    protected void run() {
+    public void run() {
         print("Rat.run()");
     }
 
     @Override
-    protected void sleep() {
+    public void sleep() {
         print("Rat.sleep()");
     }
 
@@ -70,20 +70,21 @@ class Rat extends Rodent {
     }
 }
 
-class Squirrel extends Rodent{
+class Squirrel implements Rodent {
     private String name = "Squirrel";
+
     @Override
-    protected void eat() {
+    public void eat() {
         print("Squirrel.eat()");
     }
 
     @Override
-    protected void run() {
+    public void run() {
         print("Squirrel.run()");
     }
 
     @Override
-    protected void sleep() {
+    public void sleep() {
         print("Squirrel.sleep()");
     }
 
@@ -93,13 +94,13 @@ class Squirrel extends Rodent{
     }
 }
 
-public class Rodent1 {
+public class Rodent7 {
     private static RandomRodentGenerator1 gen = new RandomRodentGenerator1();
 
     public static void main(String[] args) {
-        // Error: cannot instantiate abstract class:
+        // Error: cannot instantiate (abstract) interface:
         // Rodent x = new Rodent();
-        // But ok to crate array to be downcast ot derived objects:
+        // But ok to crate array of implementing objects:
         Rodent[] rodents = new Rodent[10];
         for (Rodent r : rodents) {
             r = gen.next();
