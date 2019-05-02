@@ -22,7 +22,7 @@ public class Ex17 {
         System.out.println("MONDAY = " + Days.MONDAY);
         Week w0 = new Week();
         Week w1 = new Week();
-        w0.SUNDAY = 2; //Error: cannot assign a value to final variable SUNDAY:
-        w1.MONDAY = w0.MONDAY; // Error: cannot assign a value to final variable MONDAY:
+        // w0.SUNDAY = 2; //Error: cannot assign a value to final variable SUNDAY:
+        // w1.MONDAY = w0.MONDAY; // Error: cannot assign a value to final variable MONDAY:
     }
 }
