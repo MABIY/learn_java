@@ -16,7 +16,7 @@ public class GreenhouseController24 {
         Event[] eventList = {
                 gc.new ThermostatNight(0),
                 gc.new LightOn(200),
-                gc.new FanOn
+                gc.new FanOn // lhtd
         };
     }
 }
