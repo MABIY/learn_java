@@ -182,8 +182,12 @@ public class GreenhouseControls24 extends Controller {
             return "Restarting system";
         }
 
-        public Restart(long delayTime) {
+        public Restart(long delayTime,Event[] events) {
             super(delayTime);
+            this.eventList = events;
+            for (Event e : eventList) {
+                addEvent(e);
+            }
         }
 
         @Override
