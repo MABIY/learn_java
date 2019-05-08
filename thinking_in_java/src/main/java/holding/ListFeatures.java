@@ -1,6 +1,7 @@
 package holding;
 
 import typeinfo.pets.*;
+import typeinfo.pets.Mouse;
 
 import java.util.*;
 
@@ -27,7 +28,7 @@ public class ListFeatures {
         // Must be the exact object
         print("7: " + pets.remove(p));
         print("8: " + pets);
-        pets.add(3, new Mouse()); // Insert at an index
+        pets.add(3, new typeinfo.pets.Mouse()); // Insert at an index
         print("9: " + pets);
         List<Pet> sub = pets.subList(1, 4);
         print("subList: " + sub);
