@@ -73,7 +73,7 @@ public class CADSystem extends Shape{
     }
 
     @Override
-    void dispose() {
+    public void dispose() {
         print("CADSystem.dispose()");
         // The order of cleanup is hte reverse
         // of the order of initialization:
