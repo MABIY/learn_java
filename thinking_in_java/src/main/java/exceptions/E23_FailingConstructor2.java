@@ -49,7 +49,14 @@ public class E23_FailingConstructor2 {
                 try {
                     System.out.println("Processing... ");
                     //fixeme
+                }finally {
+                    // We do not have a decent method to call for
+                    // cleanup!
+                    System.out.println("Cleanup... ");
                 }
+            }catch (ConstructionException e){
+                System.out.println("Construction has failed: "  +e);
+                break;
             }
         }
     }
