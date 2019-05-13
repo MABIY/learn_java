@@ -1,0 +1,56 @@
+package exceptions;
+
+/**
+ * @author lh
+ * Add a class with a dispose() method to the
+ * previous exercise. Modify FailingConstructor so
+ * that the constructor creates one of these
+ * disposable objects as a member object. After which
+ * the constructor might throw an exception, after
+ * which it creates a second disposable member object.
+ * Write code to properly guard against failure, and
+ * in main() verify that all possible failure
+ * situations are covered.
+ **/
+class WithDispose{
+    private final int id;
+
+    public WithDispose(int id) {
+        this.id = id;
+    }
+    void dispose() {
+        System.out.println("WithDispose.dispose(): " + id);
+    }
+}
+
+class FailingConstructor2{
+    private final WithDispose wd1,wd2;
+
+    public FailingConstructor2(boolean fail) throws ConstructionException{
+        wd1 = new WithDispose(1);
+        try {
+            // "Simulate" other code that might throw exceptions
+            if (fail) {
+                throw new ConstructionException();
+            }
+        } catch (ConstructionException e) {
+            wd1.dispose();
+            throw  e;
+        }
+        wd2 = new WithDispose(2);
+    }
+}
+public class E23_FailingConstructor2 {
+    public static void main(String[] args) {
+        for (boolean b = false; ; b = !b) {
+            try {
+                System.out.println("Constructing... ");
+                FailingConstructor2 fc = new FailingConstructor2(b);
+                try {
+                    System.out.println("Processing... ");
+                    //fixeme
+                }
+            }
+        }
+    }
+}
