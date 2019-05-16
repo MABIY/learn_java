@@ -56,5 +56,6 @@ public class ToyTest {
             System.exit(1);
         }
         printInfo(obj.getClass());
+        //lhtd
     }
 }
