@@ -12,7 +12,7 @@ interface Shoots{}
 class Toy{
     // Comment out the following default constructor
 
-    // public Toy() { }
+    public Toy() { }
 
     public Toy(int i) {
     }
@@ -21,6 +21,9 @@ class Toy{
 class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {
     public FancyToy(int i) {
         super(i);
+    }
+
+    public FancyToy() {
     }
 }
 public class ToyTest {
