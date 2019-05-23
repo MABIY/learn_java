@@ -14,10 +14,17 @@ import static net.lh.util.Print.print;
 interface BB{
     public static final String a = "1";
     public static void test() {}
+
 }
 
 class BB_Sub implements BB {
-    public static void main(String[] args) {
+    public static String bb_a = "fdsaf";
+    public String bb_c = "cc";
+    public static void tt() {
+
+    }
+    public void pp() {
+
     }
 }
 class A1{
@@ -31,7 +38,10 @@ class B1 extends A1{
         return null;
     }
 }
-public class E20_ClassDump extends B1{
+public class E20_ClassDump extends BB_Sub{
+
+    public static String b;
+    public String c;
     public static void display(String msg, Object[] vals) {
         print(msg);
         for (Object val : vals) {
