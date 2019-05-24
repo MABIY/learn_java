@@ -11,13 +11,16 @@ import static net.lh.util.Print.print;
  * available for that class. Test your program
  * with a standard library class and a class you create.
  **/
-interface BB{
+class BB{
     public static final String a = "1";
     public static void test() {}
 
+    public void bb_test() {
+    }
+
 }
 
-class BB_Sub implements BB {
+class BB_Sub extends BB {
     public static String bb_a = "fdsaf";
     public String bb_c = "cc";
     public static void tt() {
