@@ -1,3 +1,7 @@
-//: generics/coffee/Cappuccino.java
 package generics.coffee;
-public class Cappuccino extends Coffee {} ///:~
+
+/**
+ * @author lh
+ **/
+public class Cappuccino extends Coffee{
+}
