@@ -1,7 +1,6 @@
 package generics;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 import static net.mindview.util.Print.print;
 
@@ -44,8 +43,8 @@ class ClassAsFactory22<T> {
 
 public class E22_InstantiateGenericType2 {
     public static void main(String[] args) {
-        ClassAsFactory22<Employee> fe = new ClassAsFactory22<>(Employee.class);
-        Employee emp = fe.create(1);
+        ClassAsFactory22<Employee1> fe = new ClassAsFactory22<>(Employee1.class);
+        Employee1 emp = fe.create(1);
         if (emp == null) {
             print("Emloyee cannot be instantiated!");
         }
