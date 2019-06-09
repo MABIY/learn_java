@@ -40,7 +40,7 @@ public class UnboundedWildcards {
         assign2(new ArrayList<String>());
         assign3(new ArrayList<String>());
         // Both forms are acceptable as List<?>
-        List<?> wildList = new ArrayList<>();
+        List<?> wildList = new ArrayList();
         wildList = new ArrayList<String>();
         assign1(wildList);
         assign2(wildList);
