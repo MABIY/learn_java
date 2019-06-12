@@ -99,12 +99,4 @@ public class CountingGenerator {
         }
     }
 
-
-    public static void main(String[] args) {
-        double value = 0.0;
-        double result = value;
-        value += 1.0;
-        System.out.println(result);
-    }
-
 } ///:~
