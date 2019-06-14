@@ -1,9 +1,6 @@
 package containers;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 import static net.lh.util.Countries.names;
 import static net.lh.util.Print.print;
