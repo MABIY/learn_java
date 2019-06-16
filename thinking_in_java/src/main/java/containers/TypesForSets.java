@@ -1,8 +1,5 @@
 package containers;
 
-import sun.reflect.generics.tree.Tree;
-
-import java.lang.reflect.InvocationTargetException;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -12,7 +9,7 @@ import java.util.TreeSet;
  * @author lh
  * Methods neceesary to put your own type in a Set.
  **/
-class SetType{
+class SetType {
     int i;
 
     public SetType(int i) {
@@ -25,7 +22,7 @@ class SetType{
     }
 }
 
-class HashType extends SetType{
+class HashType extends SetType {
     public HashType(int i) {
         super(i);
     }
@@ -36,7 +33,7 @@ class HashType extends SetType{
     }
 }
 
-class TreeType extends SetType implements Comparable<TreeType>{
+class TreeType extends SetType implements Comparable<TreeType> {
 
     public TreeType(int i) {
         super(i);
@@ -48,6 +45,7 @@ class TreeType extends SetType implements Comparable<TreeType>{
         return Integer.compare(i, o.i);
     }
 }
+
 public class TypesForSets {
     static <T> Set<T> fill(Set<T> set, Class<T> type) {
         try {
@@ -72,8 +70,8 @@ public class TypesForSets {
         test(new LinkedHashSet<>(), HashType.class);
         test(new TreeSet<>(), TreeType.class);
         // Tings that don't work:
-        test(new HashSet<>(),SetType.class);
-        test(new HashSet<>(),TreeType.class);
+        test(new HashSet<>(), SetType.class);
+        test(new HashSet<>(), TreeType.class);
         test(new LinkedHashSet<>(), SetType.class);
         test(new LinkedHashSet<>(), TreeType.class);
         try {
