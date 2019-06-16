@@ -56,6 +56,7 @@ class SListIterator8<E>{
             parent = current.next.next;
         }
     }
+
 }
 class Link<E>{
     E e;
