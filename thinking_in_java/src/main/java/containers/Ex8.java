@@ -57,7 +57,6 @@ class SListIterator8<E>{
         }
     }
 
-
 }
 class Link<E>{
     E e;
