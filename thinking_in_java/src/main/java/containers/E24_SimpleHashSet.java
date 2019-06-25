@@ -1,5 +1,7 @@
 package containers;
 
+import net.lh.util.Countries;
+
 import java.util.*;
 
 /**
@@ -111,5 +113,18 @@ class SimpleHashSet<K> extends AbstractSet<K>{
 
 }
 public class E24_SimpleHashSet {
-    //lhtd
+    public static void main(String[] args) {
+        SimpleHashSet<String> m = new SimpleHashSet<>();
+        m.addAll(Countries.names(10));
+        m.addAll(Countries.names(10));
+        System.out.println("m = " + m);
+        System.out.println("m.size() = " + m.size());
+        Iterator<String> it = m.iterator();
+        System.out.println("it.next()= " + it.next());
+        it.remove();
+        System.out.println("ite.next()= " + it.next());
+        System.out.println("m = " + m);
+        m.remove("ALGERIA");
+        System.out.println("m = " + m);
+    }
 }
