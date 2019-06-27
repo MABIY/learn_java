@@ -1,8 +1,7 @@
-package typeinfo.pets;
+package containers;
 
 
 import net.lh.util.CountingIntegerList;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.*;
 
@@ -206,7 +205,7 @@ public class E33_ListPerformance3 {
         });
     }
 
-    static class ListTester extends Tester<List<Integer>>{
+    static class ListTester extends Tester<List<Integer>> {
         public ListTester(List<Integer> container, List<Test<List<Integer>>> tests) {
             super(container, tests);
         }

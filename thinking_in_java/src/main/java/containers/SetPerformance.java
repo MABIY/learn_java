@@ -1,55 +1,52 @@
-package typeinfo.pets;
+package containers;
 
-import net.lh.util.CountingGenerator;
-import net.lh.util.Generator;
+import containers.Test;
+import containers.TestParam;
+import containers.Tester;
 
 import java.util.*;
 
 /**
  * @author lh
- * {Args: 1000 500} Medium to keep build testing reasonable
- * Modify SetPerformance.java so that the Sets hold String
- * objects instead of Integers. Use a Generator from the
- * Arrays chapter to create test values
+ * Demonstrates performance differences in Sets.
  **/
-public class E34_StringSetPerformance {
-    static List<Test<Set<String>>> tests = new ArrayList<>();
+public class SetPerformance {
+    static List<Test<Set<Integer>>> tests = new ArrayList<>();
     static {
-        tests.add(new Test<Set<String>>("add") {
+        tests.add(new Test<Set<Integer>>("add") {
             @Override
-            int test(Set<String> set, TestParam tp) {
-                Generator<String> gen;
+            int test(Set<Integer> set, TestParam tp) {
                 int loops = tp.loops;
                 int size = tp.size;
                 for (int i = 0; i < loops; i++) {
                     set.clear();
-                    // Always starts the sequence from the beginning.
-                    gen = new CountingGenerator.String();
                     for (int j = 0; j < size; j++) {
-                        set.add(gen.next());
+                        set.add(j);
                     }
                 }
                 return loops * size;
             }
         });
-        tests.add(new Test<Set<String>>("contains") {
+        tests.add(new Test<Set<Integer>>("contains") {
             @Override
-            int test(Set<String> set, TestParam tp) {
-                Generator<String> gen = new CountingGenerator.String(5);
+            int test(Set<Integer> set, TestParam tp) {
                 int loops = tp.loops;
                 int span = tp.size * 2;
-                for (int i = 0; i < span; i++) {
-                    set.contains(gen.next());
+                for (int i = 0; i < loops; i++) {
+                    for (int j = 0; j < span; j++) {
+                        set.contains(i);
+                    }
                 }
                 return loops * span;
             }
         });
-        tests.add(new Test<Set<String>>("iterate") {
+
+        tests.add(new Test<Set<Integer>>("iterate") {
             @Override
-            int test(Set<String> set, TestParam tp) {
+            int test(Set<Integer> set, TestParam tp) {
                 int loops = tp.loops * 10;
                 for (int i = 0; i < loops; i++) {
-                    Iterator<String> it = set.iterator();
+                    Iterator<Integer> it = set.iterator();
                     while (it.hasNext()) {
                         it.next();
                     }

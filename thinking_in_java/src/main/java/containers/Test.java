@@ -1,6 +1,4 @@
-package typeinfo.pets;
-
-import innerclasses.TestParcel;
+package containers;
 
 /**
  * @author lh

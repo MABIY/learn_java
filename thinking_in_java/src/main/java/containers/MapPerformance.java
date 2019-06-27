@@ -1,53 +1,53 @@
-package typeinfo.pets;
+package containers;
 
 import java.util.*;
 
 /**
  * @author lh
- * Demonstrates performance differences in Sets.
+ * Demonstrates performance differences in Maps
  **/
-public class SetPerformance {
-    static List<Test<Set<Integer>>> tests = new ArrayList<>();
+public class MapPerformance {
+    static List<Test<Map<Integer, Integer>>> tests = new ArrayList<>();
     static {
-        tests.add(new Test<Set<Integer>>("add") {
+        tests.add(new Test<Map<Integer, Integer>>("put") {
             @Override
-            int test(Set<Integer> set, TestParam tp) {
+            int test(Map<Integer, Integer> map, TestParam tp) {
                 int loops = tp.loops;
                 int size = tp.size;
                 for (int i = 0; i < loops; i++) {
-                    set.clear();
+                    map.clear();
                     for (int j = 0; j < size; j++) {
-                        set.add(j);
+                        map.put(j, j);
                     }
                 }
                 return loops * size;
             }
         });
-        tests.add(new Test<Set<Integer>>("contains") {
+        tests.add(new Test<Map<Integer, Integer>>("get") {
             @Override
-            int test(Set<Integer> set, TestParam tp) {
+            int test(Map<Integer, Integer> map, TestParam tp) {
                 int loops = tp.loops;
                 int span = tp.size * 2;
                 for (int i = 0; i < loops; i++) {
                     for (int j = 0; j < span; j++) {
-                        set.contains(i);
+                        map.get(j);
                     }
                 }
                 return loops * span;
             }
         });
 
-        tests.add(new Test<Set<Integer>>("iterate") {
+        tests.add(new Test<Map<Integer, Integer>>("iterate") {
             @Override
-            int test(Set<Integer> set, TestParam tp) {
+            int test(Map<Integer, Integer> map, TestParam tp) {
                 int loops = tp.loops * 10;
                 for (int i = 0; i < loops; i++) {
-                    Iterator<Integer> it = set.iterator();
+                    Iterator it = map.entrySet().iterator();
                     while (it.hasNext()) {
                         it.next();
                     }
                 }
-                return loops * set.size();
+                return loops * map.size();
             }
         });
     }
@@ -56,9 +56,11 @@ public class SetPerformance {
         if (args.length > 0) {
             Tester.defaultParams = TestParam.array(args);
         }
-        Tester.fieldWidth = 10;
-        Tester.run(new TreeSet<>(),tests);
-        Tester.run(new HashSet<>(),tests);
-        Tester.run(new LinkedHashSet<>(),tests);
+        Tester.run(new TreeMap<>(),tests);
+        Tester.run(new HashMap<>(),tests);
+        Tester.run(new LinkedHashMap<>(),tests);
+        Tester.run(new IdentityHashMap<>(),tests);
+        Tester.run(new WeakHashMap<>(),tests);
+        Tester.run(new Hashtable<>(),tests);
     }
 }

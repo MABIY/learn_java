@@ -1,4 +1,4 @@
-package typeinfo.pets;
+package containers;
 
 import java.util.List;
 
