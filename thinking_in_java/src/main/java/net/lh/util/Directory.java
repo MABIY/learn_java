@@ -1,12 +1,7 @@
 package net.lh.util;
 
-import net.mindview.util.PPrint;
-
 import java.io.File;
 import java.io.FilenameFilter;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.regex.Pattern;
 
 /**
