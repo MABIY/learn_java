@@ -1,0 +1,31 @@
+1: package io;
+2: 
+3: import java.io.BufferedReader;
+4: import java.io.IOException;
+5: import java.io.PrintWriter;
+6: import java.io.StringReader;
+7: 
+8: /**
+9:  * @author lh
+10:  **/
+11: public class FileOutputShortcut {
+12:     static String file = "FileOutputShortcut.out";
+13: 
+14:     public static void main(String[] args) throws IOException {
+15:         BufferedReader in = new BufferedReader(
+16:                 new StringReader(
+17:                         BufferedInputFile.read("thinking_in_java/src/main/java/io/FileOutputShortcut.java")
+18:                 )
+19:         );
+20:         // Here's the shortcut:
+21:         PrintWriter out = new PrintWriter(file);
+22:         int lineCount = 1;
+23:         String s;
+24:         while ((s = in.readLine()) != null) {
+25:             out.println(lineCount++ + ": "  +s);
+26:         }
+27:         out.close();
+28:         // Show teh stored file:
+29:         System.out.println(BufferedInputFile.read(file));
+30:     }
+31: }
