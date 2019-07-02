@@ -31,6 +31,35 @@ public final class Directory {
         return local(new File(path), regex);
     }
 
+    public static TreeInfo walk(String start,String regex){ // Begin recursion
+        return recurseDirs(new File(start), ".*");
+    }
+
+    public static TreeInfo walk(File start, String regex) { // Overload
+        return recurseDirs(start, regex);
+    }
+
+    public static TreeInfo walk(File start){ // Everything
+        return recurseDirs(start, ".*");
+    }
+
+    public static TreeInfo walk(String start) {
+        return recurseDirs(new File(start), ".*");
+    }
+
+    static TreeInfo recurseDirs(File startDir, String regex) {
+        TreeInfo result = new TreeInfo();
+        for (File item : startDir.listFiles()) {
+            if (item.isDirectory()) {
+                result.dirs.add(item);
+            } else { //regular file
+                if (item.getName().matches(regex)) {
+                    result.files.add(item);
+                }
+            }
+        }
+        return result;
+    }
     // A two-tuple for returing a pair of objects:
     public static class TreeInfo implements Iterable<File> {
         public List<File> files = new ArrayList<>();
@@ -52,35 +81,6 @@ public final class Directory {
             return "dirs: " + PPrint.pformat(dirs) + "\n\nfiles: " + PPrint.pformat(files);
         }
 
-        public static TreeInfo walk(String start,String regex){ // Begin recursion
-            return recurseDirs(new File(start), ".*");
-        }
-
-        public static TreeInfo walk(File start, String regex) { // Overload
-            return recurseDirs(start, regex);
-        }
-
-        public static TreeInfo walk(File start){ // Everything
-            return recurseDirs(start, ".*");
-        }
-
-        public static TreeInfo walk(String start) {
-            return recurseDirs(new File(start), ".*");
-        }
-
-        static TreeInfo recurseDirs(File startDir, String regex) {
-            TreeInfo result = new TreeInfo();
-            for (File item : startDir.listFiles()) {
-                if (item.isDirectory()) {
-                    result.dirs.add(item);
-                } else { //regular file
-                    if (item.getName().matches(regex)) {
-                        result.files.add(item);
-                    }
-                }
-            }
-            return result;
-        }
         // Simple validation test
         public static void main(String[] args) {
             if (args.length == 0) {
