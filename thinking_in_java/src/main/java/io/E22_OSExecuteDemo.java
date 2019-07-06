@@ -54,5 +54,10 @@ class OSExecute2{
     }
 }
 public class E22_OSExecuteDemo {
-
+    public static void main(String[] args) {
+        List<String> result = OSExecute2.command("javap");
+        for (String s : result) {
+            System.out.println(s);
+        }
+    }
 }
