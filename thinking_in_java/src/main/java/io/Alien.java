@@ -8,13 +8,12 @@ import java.io.Serializable;
  */
 public class Alien extends Test {
     public Alien(int a1) {
-        super("1");
         this.a = a1;
     }
 
-    // public Alien() {
-    //     super("1");
-    // }
+    Alien() {
+        System.out.println("test");
+    }
 
     public int a;
 
