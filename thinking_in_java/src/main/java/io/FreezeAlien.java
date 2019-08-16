@@ -10,7 +10,7 @@ public class FreezeAlien {
         ObjectOutput out = new ObjectOutputStream(
                 new FileOutputStream("X.file")
         );
-        Alien quellek = new Alien();
+        Alien quellek = new Alien(1);
         out.writeObject(quellek);
     }
 }
