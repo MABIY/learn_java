@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="head_first_java" />
         <module name="thinking_in_java" />
+        <module name="head_first_java" />
       </profile>
     </annotationProcessing>
   </component>
