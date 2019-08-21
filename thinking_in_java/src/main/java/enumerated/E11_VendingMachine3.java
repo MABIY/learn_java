@@ -47,7 +47,7 @@ enum Category2 {
     ITEM_SELECTION(Input2.VENDED_ITEM),
     QUIT_TRANSACTION(Input2.ABORT_TRANSACTION),
     SHUT_DOWN(Input2.STOP);
-    private static EnumMap<Input2, Category2> categories = new EnumMap<Input2, Category2>();
+    private static EnumMap<Input2, Category2> categories = new EnumMap<Input2, Category2>(Input2.class);
 
     static {
         for (Category2 c : Category2.class.getEnumConstants()) {
@@ -145,7 +145,7 @@ public class E11_VendingMachine3 {
                 switch (Category2.categorize(input.input)) {
                     case MONEY:
                         amount += input.amount();
-                        state =ADD
+                        state = ADDING_MONEY;
                 }
             }
         },
