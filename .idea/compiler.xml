@@ -2,13 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
+      <profile default="true" name="Default" enabled="true">
+        <processorPath>
+          <entry name="$PROJECT_DIR$/thinking_in_java/src/main/java/annotations/InterfaceExtractorProcessor.java" />
+        </processorPath>
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="thinking_in_java" />
         <module name="head_first_java" />
+        <module name="thinking_in_java" />
       </profile>
     </annotationProcessing>
   </component>

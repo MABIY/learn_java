@@ -22,6 +22,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
+                    <includes>
+                        <include>${basedir}/lib/*.jar</include>
+                    </includes>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
