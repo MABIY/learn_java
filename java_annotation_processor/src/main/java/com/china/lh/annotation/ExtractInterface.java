@@ -9,7 +9,8 @@ import java.lang.annotation.Target;
  * @author lh
  * API-based annotation
  */
-@Target({ElementType.METHOD})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.SOURCE)
 public @interface ExtractInterface {
+    public String value();
 }

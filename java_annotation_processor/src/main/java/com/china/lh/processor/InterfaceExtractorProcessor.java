@@ -64,56 +64,11 @@ public class InterfaceExtractorProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         try {
-            String resultPath = processingEnv.getOptions().get(CUSTOM_ANNOTATION);
-            if (resultPath == null) {
-                messager.printMessage(Diagnostic.Kind.ERROR, "No option " + CUSTOM_ANNOTATION +
-                        " passed to annotation processor");
-                return false;
+            if (annotations != null && annotations.size() > 0) {
+                String resultPath = processingEnv.getOptions().get(CUSTOM_ANNOTATION);
+                generateFile("Imulate");
             }
 
-            round++;
-            messager.printMessage(Diagnostic.Kind.NOTE, "round " + round + " process over " + roundEnv.processingOver());
-            Iterator<? extends TypeElement> iterator = annotations.iterator();
-            while (iterator.hasNext()) {
-                messager.printMessage(Diagnostic.Kind.NOTE, "name is " + iterator.next().getSimpleName().toString());
-            }
-
-            if (roundEnv.processingOver()) {
-                if (!annotations.isEmpty()) {
-                    messager.printMessage(Diagnostic.Kind.ERROR,
-                            "Unexpected processing state: annotations still available after processing over");
-                    return false;
-                }
-            }
-
-            if (annotations.isEmpty()) {
-                return false;
-            }
-
-            for (Element element : roundEnv.getElementsAnnotatedWith(ExtractInterface.class)) {
-                if (element.getKind() != ElementKind.METHOD) {
-                    messager.printMessage(
-                            Diagnostic.Kind.ERROR,
-                            String.format("Only methods can be annotated with @%s", ExtractInterface.class.getSimpleName()),
-                            element);
-                    return true; // 退出处理
-                }
-
-                if (!element.getModifiers().contains(Modifier.PUBLIC)) {
-                    messager.printMessage(Diagnostic.Kind.ERROR, "Subscriber method must be public", element);
-                    return true;
-                }
-
-                ExecutableElement execElement = (ExecutableElement) element;
-                TypeElement classElement = (TypeElement) execElement.getEnclosingElement();
-                result.add(classElement.getSimpleName().toString() + "#" + execElement.getSimpleName().toString());
-            }
-            if (!result.isEmpty()) {
-                generateFile(resultPath);
-            } else {
-                messager.printMessage(Diagnostic.Kind.WARNING, "No @CustomAnnotation annotations found");
-            }
-            result.clear();
         } catch (Exception e) {
             e.printStackTrace();
             messager.printMessage(Diagnostic.Kind.ERROR, "Unexpected error in CustomProcessor: " + e);
