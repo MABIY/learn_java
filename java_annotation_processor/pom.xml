@@ -9,16 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>lh.china.com</groupId>
-    <artifactId>head_first_java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>java_annotation_processor</artifactId>
     <dependencies>
         <dependency>
-            <groupId>lh.china.com</groupId>
-            <artifactId>java_annotation_processor</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>com.google.auto.service</groupId>
+            <artifactId>auto-service</artifactId>
+            <version>1.0-rc2</version>
         </dependency>
     </dependencies>
+
 
 </project>
