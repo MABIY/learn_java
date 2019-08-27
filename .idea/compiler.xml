@@ -16,9 +16,6 @@
         <module name="head_first_java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="thinking_in_java" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:unchecked" />
