@@ -1,10 +1,8 @@
 package concurrency.restaurant2;
 
 
-import access.foreign.SprinklerSystem;
 import enumerated.menu.Course;
 import enumerated.menu.Food;
-import sun.awt.image.ImageWatched;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,14 +11,13 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 import static net.mindview.util.Print.print;
-import static net.mindview.util.Print.printnb;
 
 /**
  * @author lh
  * {Arg:5}
  */
 // this is given to the waiter, who givens ti to the chef
-class Order{ // (A data-transfer object )
+class Order { // (A data-transfer object )
     private static int counter = 0;
     private final int id = counter++;
     private final Customer customer;
@@ -32,9 +29,11 @@ class Order{ // (A data-transfer object )
         this.waitPerson = waitPerson;
         this.food = food;
     }
+
     public Food item() {
         return food;
     }
+
     public Customer getCustomer() {
         return customer;
     }
@@ -50,7 +49,7 @@ class Order{ // (A data-transfer object )
     }
 }
 
-class Plate{
+class Plate {
     private final Order order;
     private final Food food;
 
@@ -72,6 +71,7 @@ class Plate{
         return food.toString();
     }
 }
+
 class Customer implements Runnable {
     private static int counter = 0;
     private final int id = counter++;
@@ -82,6 +82,7 @@ class Customer implements Runnable {
     public Customer(WaitPerson waitPerson) {
         this.waitPerson = waitPerson;
     }
+
     public void deliver(Plate p) throws InterruptedException {
         // Only blocks if customer is still
         // eating the previous course:
@@ -109,6 +110,7 @@ class Customer implements Runnable {
         return "Customer " + id + " ";
     }
 }
+
 // This is what comes back form the chef
 class WaitPerson implements Runnable {
     private static int counter = 0;
@@ -153,9 +155,9 @@ class WaitPerson implements Runnable {
 
 class Chef implements Runnable {
     private static int counter = 0;
+    private static Random rand = new Random(47);
     private final int id = counter++;
     private final Restaurant restaurant;
-    private static Random rand = new Random(47);
 
     public Chef(Restaurant restaurant) {
         this.restaurant = restaurant;
@@ -186,13 +188,13 @@ class Chef implements Runnable {
 }
 
 class Restaurant implements Runnable {
+    private static Random rand = new Random(47);
+    BlockingQueue<Order> orders = new LinkedBlockingQueue<>();
     private List<WaitPerson> waitPersons = new ArrayList<>();
     private List<Chef> chefs = new ArrayList<>();
     private ExecutorService exec;
-    private static Random rand = new Random(47);
-    BlockingQueue<Order> orders = new LinkedBlockingQueue<>();
 
-    public Restaurant(ExecutorService exec,int nWaitPersons,int nChefs) {
+    public Restaurant(ExecutorService exec, int nWaitPersons, int nChefs) {
         this.exec = exec;
         for (int i = 0; i < nWaitPersons; i++) {
             WaitPerson waitPerson = new WaitPerson(this);
@@ -222,6 +224,7 @@ class Restaurant implements Runnable {
         print("restaurant closing");
     }
 }
+
 public class RestaurantWithQueue {
     public static void main(String[] args) throws InterruptedException, IOException {
         args = new String[]{"5"};
