@@ -39,8 +39,8 @@ class OrderTicket {
 
     public void placeOrder(Customer customer, Food food) {
         Order order = new Order(customer, food);
-        orders.add(order);
         order.setOrderTicket(this);
+        orders.add(order);
     }
 
     public List<Order> getOrders() {
@@ -108,6 +108,7 @@ class Table implements Runnable {
         } catch (BrokenBarrierException e) {
             throw new RuntimeException(e);
         }
+        waitPerson.placeOrderTicket(orderTicket);
     }
 
     @Override
