@@ -26,13 +26,13 @@ public class Apple {
 
     public static void main(String[] args) {
         List<Apple> inventory = new ArrayList<>();
-        Filter.filterApples(inventory,Filter::bb);
+        Filter.filterApples(inventory,new Filter()::bb);
     }
 }
 
 class Filter{
 
-    public static boolean bb(Apple apple) {
+    public  boolean bb(Apple apple) {
         return true;
     }
 
