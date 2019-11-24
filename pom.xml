@@ -12,6 +12,7 @@
     <modules>
         <module>thinking_in_java</module>
         <module>head_first_java</module>
+        <module>java8ActualCombat</module>
         <module>java_annotation_processor</module>
     </modules>
     <properties>

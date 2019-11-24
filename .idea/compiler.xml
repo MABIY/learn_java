@@ -14,6 +14,7 @@
         <module name="thinking_in_java" />
         <module name="java_annotation_processor" />
         <module name="head_first_java" />
+        <module name="java8ActualCombat" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:unchecked" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="head_first_java" options="" />
+      <module name="java8ActualCombat" options="" />
       <module name="java_annotation_processor" options="" />
       <module name="thinking_in_java" options="" />
     </option>
