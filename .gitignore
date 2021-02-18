@@ -44,8 +44,6 @@ hs_err_pid*
 cmake-build-debug/
 cmake-build-release/
 
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -60,7 +58,6 @@ out/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -70,4 +67,5 @@ fabric.properties
 
 target/
 # Editor-based Rest Client
-.idea/httpRequests
+*.iml
+.idea
