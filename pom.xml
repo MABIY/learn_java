@@ -14,6 +14,7 @@
         <module>head_first_java</module>
         <module>java8ActualCombat</module>
         <module>java_annotation_processor</module>
+        <module>effective_java_3</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
