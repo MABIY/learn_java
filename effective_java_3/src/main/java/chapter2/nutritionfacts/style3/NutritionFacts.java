@@ -2,6 +2,7 @@ package chapter2.nutritionfacts.style3;
 
 /**
  * Builder Pattern
+ *
  * @author lh
  */
 public class NutritionFacts {
@@ -11,7 +12,6 @@ public class NutritionFacts {
     private final int fat;
     private final int sodium;
     private final int carbohydrate;
-
     private NutritionFacts(Builder builder) {
         servingSize = builder.servingSize;
         servings = builder.servings;
@@ -21,7 +21,12 @@ public class NutritionFacts {
         carbohydrate = builder.carbohydrate;
     }
 
-    public static class Builder{
+    public static void main(String[] args) {
+        NutritionFacts cocaCola = new Builder(240, 8)
+                .calories(100).sodium(35).carbohydrate(27).build();
+    }
+
+    public static class Builder {
         // Required parameters
         private final int servingSize;
         private final int servings;
